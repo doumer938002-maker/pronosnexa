@@ -1,0 +1,6359 @@
+{
+ "demo": true,
+ "maj": "2026-11-11T07:00:00+01:00",
+ "stats": {
+  "courses": 1280,
+  "jours": 96,
+  "gagnant_top1": 0.27,
+  "gagnant_top3": 0.61,
+  "place_top1": 0.58,
+  "favori_marche": 0.21,
+  "favori_marche_place": 0.52,
+  "derniers_30j": [
+   0.216,
+   0.219,
+   0.228,
+   0.256,
+   0.238,
+   0.253,
+   0.298,
+   0.194,
+   0.242,
+   0.27,
+   0.257,
+   0.274,
+   0.314,
+   0.234,
+   0.311,
+   0.234,
+   0.316,
+   0.3,
+   0.256,
+   0.264,
+   0.24,
+   0.249,
+   0.22,
+   0.236,
+   0.224,
+   0.254,
+   0.248,
+   0.218,
+   0.31,
+   0.273
+  ]
+ },
+ "courses": [
+  {
+   "id": "R1C4",
+   "label": "R1·C4",
+   "hippo": "Hippodrome exemple A",
+   "discipline": "Trot attelé",
+   "heure": "14:05",
+   "quinte": false,
+   "partants": [
+    {
+     "num": 1,
+     "nom": "Cheval exemple 1",
+     "jockey": "Jockey A",
+     "cote": 11.7,
+     "proba": 0.103,
+     "top3": 0.268,
+     "forme": [
+      "1",
+      "5",
+      "4",
+      "D",
+      "3"
+     ],
+     "evol": [
+      13.2,
+      10.3,
+      11.2,
+      10.3,
+      13.3,
+      12.8,
+      11.7
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 1",
+     "proprietaire": "Propriétaire A",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#d33",
+      "#f0c030"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Non",
+     "age": 6,
+     "victoires": 8,
+     "courses": 14
+    },
+    {
+     "num": 2,
+     "nom": "Cheval exemple 2",
+     "jockey": "Jockey B",
+     "cote": 10.8,
+     "proba": 0.12,
+     "top3": 0.312,
+     "forme": [
+      "5",
+      "1",
+      "4",
+      "3",
+      "2"
+     ],
+     "evol": [
+      11.6,
+      11.5,
+      12.3,
+      9.4,
+      9.3,
+      12.5,
+      10.8
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 2",
+     "proprietaire": "Propriétaire B",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#2b6cff",
+      "#2aa86a"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Non",
+     "age": 9,
+     "victoires": 6,
+     "courses": 18
+    },
+    {
+     "num": 3,
+     "nom": "Cheval exemple 3",
+     "jockey": "Jockey C",
+     "cote": 11.4,
+     "proba": 0.103,
+     "top3": 0.268,
+     "forme": [
+      "4",
+      "5",
+      "1",
+      "3",
+      "2"
+     ],
+     "evol": [
+      10.5,
+      10.6,
+      10.9,
+      9.7,
+      10.0,
+      12.3,
+      11.4
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 3",
+     "proprietaire": "Propriétaire C",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 5",
+     "casaque": [
+      "#8a4fd0",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 3,
+     "victoires": 0,
+     "courses": 21
+    },
+    {
+     "num": 4,
+     "nom": "Cheval exemple 4",
+     "jockey": "Jockey D",
+     "cote": 12.7,
+     "proba": 0.103,
+     "top3": 0.268,
+     "forme": [
+      "1",
+      "0",
+      "D",
+      "2",
+      "5"
+     ],
+     "evol": [
+      13.1,
+      10.9,
+      13.3,
+      11.3,
+      11.3,
+      12.1,
+      12.7
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 4",
+     "proprietaire": "Propriétaire D",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#f0c030",
+      "#fff"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 4,
+     "victoires": 3,
+     "courses": 32
+    },
+    {
+     "num": 5,
+     "nom": "Cheval exemple 5",
+     "jockey": "Jockey E",
+     "cote": 12.6,
+     "proba": 0.114,
+     "top3": 0.296,
+     "forme": [
+      "D",
+      "3",
+      "0",
+      "1",
+      "2"
+     ],
+     "evol": [
+      10.9,
+      12.4,
+      13.8,
+      12.6,
+      13.2,
+      11.6,
+      12.6
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 5",
+     "proprietaire": "Propriétaire E",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2aa86a",
+      "#2b6cff"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Australiennes",
+     "age": 3,
+     "victoires": 5,
+     "courses": 27
+    },
+    {
+     "num": 6,
+     "nom": "Cheval exemple 6",
+     "jockey": "Jockey F",
+     "cote": 7.7,
+     "proba": 0.126,
+     "top3": 0.328,
+     "forme": [
+      "0",
+      "4",
+      "2",
+      "5",
+      "D"
+     ],
+     "evol": [
+      9.1,
+      8.6,
+      6.9,
+      7.2,
+      6.8,
+      6.7,
+      7.7
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 6",
+     "proprietaire": "Propriétaire F",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 1",
+     "casaque": [
+      "#f0c030",
+      "#fff"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Classiques",
+     "age": 8,
+     "victoires": 5,
+     "courses": 19
+    },
+    {
+     "num": 7,
+     "nom": "Cheval exemple 7",
+     "jockey": "Jockey G",
+     "cote": 19.4,
+     "proba": 0.057,
+     "top3": 0.148,
+     "forme": [
+      "1",
+      "3",
+      "5",
+      "D",
+      "0"
+     ],
+     "evol": [
+      23.2,
+      21.7,
+      19.3,
+      19.1,
+      19.2,
+      23.2,
+      19.4
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 7",
+     "proprietaire": "Propriétaire G",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#2b6cff",
+      "#d33"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Non",
+     "age": 8,
+     "victoires": 5,
+     "courses": 33
+    },
+    {
+     "num": 8,
+     "nom": "Cheval exemple 8",
+     "jockey": "Jockey H",
+     "cote": 17.0,
+     "proba": 0.051,
+     "top3": 0.133,
+     "forme": [
+      "3",
+      "1",
+      "5",
+      "0",
+      "2"
+     ],
+     "evol": [
+      16.8,
+      19.5,
+      18.3,
+      15.0,
+      20.3,
+      15.7,
+      17.0
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 8",
+     "proprietaire": "Propriétaire H",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2aa86a",
+      "#8a4fd0"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 3,
+     "victoires": 2,
+     "courses": 47
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "jockey": "Jockey I",
+     "cote": 8.9,
+     "proba": 0.114,
+     "top3": 0.296,
+     "forme": [
+      "2",
+      "5",
+      "4",
+      "0",
+      "D"
+     ],
+     "evol": [
+      7.8,
+      8.2,
+      9.5,
+      7.6,
+      8.7,
+      9.5,
+      8.9
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 9",
+     "proprietaire": "Propriétaire I",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#2aa86a",
+      "#f0c030"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 9,
+     "victoires": 7,
+     "courses": 14
+    },
+    {
+     "num": 10,
+     "nom": "Cheval exemple 10",
+     "jockey": "Jockey J",
+     "cote": 7.8,
+     "proba": 0.109,
+     "top3": 0.283,
+     "forme": [
+      "5",
+      "2",
+      "4",
+      "0",
+      "3"
+     ],
+     "evol": [
+      7.1,
+      9.1,
+      8.9,
+      7.3,
+      7.1,
+      8.6,
+      7.8
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 10",
+     "proprietaire": "Propriétaire J",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 1",
+     "casaque": [
+      "#2aa86a",
+      "#d33"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Australiennes",
+     "age": 7,
+     "victoires": 9,
+     "courses": 31
+    }
+   ],
+   "terrain": "Très souple",
+   "penetrometre": 3.9,
+   "meteo": {
+    "temp": 17,
+    "vent": 27,
+    "pluie_mm": 0,
+    "ciel": "Nuageux"
+   },
+   "lat": 48.8333,
+   "lon": 2.4333
+  },
+  {
+   "id": "R1C6",
+   "label": "R1·C6",
+   "hippo": "Hippodrome exemple A",
+   "discipline": "Trot attelé",
+   "heure": "15:20",
+   "quinte": true,
+   "partants": [
+    {
+     "num": 1,
+     "nom": "Cheval exemple 1",
+     "jockey": "Jockey A",
+     "cote": 24.7,
+     "proba": 0.042,
+     "top3": 0.109,
+     "forme": [
+      "4",
+      "5",
+      "D",
+      "1",
+      "2"
+     ],
+     "evol": [
+      28.8,
+      25.2,
+      25.5,
+      29.0,
+      29.4,
+      22.1,
+      24.7
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 1",
+     "proprietaire": "Propriétaire A",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#d33",
+      "#2b6cff"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Classiques",
+     "age": 4,
+     "victoires": 0,
+     "courses": 13
+    },
+    {
+     "num": 2,
+     "nom": "Cheval exemple 2",
+     "jockey": "Jockey B",
+     "cote": 7.4,
+     "proba": 0.118,
+     "top3": 0.307,
+     "forme": [
+      "3",
+      "0",
+      "5",
+      "2",
+      "1"
+     ],
+     "evol": [
+      8.7,
+      8.2,
+      6.5,
+      7.4,
+      6.9,
+      6.4,
+      7.4
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 2",
+     "proprietaire": "Propriétaire B",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#fff",
+      "#8a4fd0"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 6,
+     "victoires": 6,
+     "courses": 17
+    },
+    {
+     "num": 3,
+     "nom": "Cheval exemple 3",
+     "jockey": "Jockey C",
+     "cote": 28.3,
+     "proba": 0.035,
+     "top3": 0.091,
+     "forme": [
+      "1",
+      "0",
+      "4",
+      "3",
+      "5"
+     ],
+     "evol": [
+      32.9,
+      33.8,
+      30.6,
+      30.9,
+      29.8,
+      25.4,
+      28.3
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 3",
+     "proprietaire": "Propriétaire C",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#f0c030",
+      "#2b6cff"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 8,
+     "victoires": 6,
+     "courses": 14
+    },
+    {
+     "num": 4,
+     "nom": "Cheval exemple 4",
+     "jockey": "Jockey D",
+     "cote": 19.4,
+     "proba": 0.049,
+     "top3": 0.127,
+     "forme": [
+      "1",
+      "0",
+      "4",
+      "3",
+      "5"
+     ],
+     "evol": [
+      16.7,
+      20.6,
+      17.0,
+      16.9,
+      18.6,
+      17.4,
+      19.4
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 4",
+     "proprietaire": "Propriétaire D",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2b6cff",
+      "#d33"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Australiennes",
+     "age": 4,
+     "victoires": 7,
+     "courses": 47
+    },
+    {
+     "num": 5,
+     "nom": "Cheval exemple 5",
+     "jockey": "Jockey E",
+     "cote": 15.0,
+     "proba": 0.049,
+     "top3": 0.127,
+     "forme": [
+      "4",
+      "1",
+      "0",
+      "D",
+      "2"
+     ],
+     "evol": [
+      17.7,
+      16.6,
+      13.4,
+      17.8,
+      14.5,
+      13.2,
+      15.0
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 5",
+     "proprietaire": "Propriétaire E",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#fff",
+      "#f0c030"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Australiennes",
+     "age": 5,
+     "victoires": 7,
+     "courses": 33
+    },
+    {
+     "num": 6,
+     "nom": "Cheval exemple 6",
+     "jockey": "Jockey F",
+     "cote": 33.1,
+     "proba": 0.035,
+     "top3": 0.091,
+     "forme": [
+      "3",
+      "4",
+      "0",
+      "D",
+      "5"
+     ],
+     "evol": [
+      35.4,
+      32.6,
+      34.9,
+      35.2,
+      29.1,
+      35.5,
+      33.1
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 6",
+     "proprietaire": "Propriétaire F",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#8a4fd0",
+      "#2b6cff"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Australiennes",
+     "age": 4,
+     "victoires": 1,
+     "courses": 39
+    },
+    {
+     "num": 7,
+     "nom": "Cheval exemple 7",
+     "jockey": "Jockey G",
+     "cote": 9.0,
+     "proba": 0.139,
+     "top3": 0.361,
+     "forme": [
+      "1",
+      "4",
+      "0",
+      "2",
+      "3"
+     ],
+     "evol": [
+      9.1,
+      9.1,
+      9.4,
+      9.3,
+      9.3,
+      8.6,
+      9.0
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 7",
+     "proprietaire": "Propriétaire G",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 1",
+     "casaque": [
+      "#f0c030",
+      "#8a4fd0"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Australiennes",
+     "age": 5,
+     "victoires": 8,
+     "courses": 53
+    },
+    {
+     "num": 8,
+     "nom": "Cheval exemple 8",
+     "jockey": "Jockey H",
+     "cote": 9.5,
+     "proba": 0.083,
+     "top3": 0.216,
+     "forme": [
+      "5",
+      "2",
+      "0",
+      "D",
+      "4"
+     ],
+     "evol": [
+      10.7,
+      10.3,
+      9.7,
+      11.1,
+      9.3,
+      8.6,
+      9.5
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 8",
+     "proprietaire": "Propriétaire H",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#fff",
+      "#f0c030"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Non",
+     "age": 7,
+     "victoires": 0,
+     "courses": 38
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "jockey": "Jockey I",
+     "cote": 16.2,
+     "proba": 0.076,
+     "top3": 0.198,
+     "forme": [
+      "0",
+      "2",
+      "D",
+      "4",
+      "1"
+     ],
+     "evol": [
+      16.3,
+      18.8,
+      15.6,
+      17.5,
+      14.9,
+      16.2,
+      16.2
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 9",
+     "proprietaire": "Propriétaire I",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#f0c030",
+      "#2aa86a"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 5,
+     "victoires": 4,
+     "courses": 49
+    },
+    {
+     "num": 10,
+     "nom": "Cheval exemple 10",
+     "jockey": "Jockey J",
+     "cote": 6.4,
+     "proba": 0.181,
+     "top3": 0.471,
+     "forme": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "D"
+     ],
+     "evol": [
+      6.1,
+      5.7,
+      6.6,
+      7.3,
+      7.3,
+      7.0,
+      6.4
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 10",
+     "proprietaire": "Propriétaire J",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2b6cff",
+      "#2aa86a"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 7,
+     "victoires": 2,
+     "courses": 41
+    },
+    {
+     "num": 11,
+     "nom": "Cheval exemple 11",
+     "jockey": "Jockey K",
+     "cote": 8.3,
+     "proba": 0.111,
+     "top3": 0.289,
+     "forme": [
+      "5",
+      "4",
+      "3",
+      "1",
+      "D"
+     ],
+     "evol": [
+      7.7,
+      8.3,
+      8.9,
+      8.5,
+      8.0,
+      9.5,
+      8.3
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 11",
+     "proprietaire": "Propriétaire K",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2aa86a",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 4,
+     "victoires": 9,
+     "courses": 57
+    },
+    {
+     "num": 12,
+     "nom": "Cheval exemple 12",
+     "jockey": "Jockey L",
+     "cote": 11.1,
+     "proba": 0.083,
+     "top3": 0.216,
+     "forme": [
+      "D",
+      "2",
+      "4",
+      "5",
+      "1"
+     ],
+     "evol": [
+      11.8,
+      12.1,
+      10.5,
+      10.8,
+      12.0,
+      11.6,
+      11.1
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 12",
+     "proprietaire": "Propriétaire L",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 5",
+     "casaque": [
+      "#8a4fd0",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 4,
+     "victoires": 9,
+     "courses": 36
+    }
+   ],
+   "terrain": "Souple",
+   "penetrometre": 3.2,
+   "meteo": {
+    "temp": 17,
+    "vent": 21,
+    "pluie_mm": 0,
+    "ciel": "Nuageux"
+   },
+   "lat": 48.8333,
+   "lon": 2.4333
+  },
+  {
+   "id": "R2C3",
+   "label": "R2·C3",
+   "hippo": "Hippodrome exemple B",
+   "discipline": "Plat",
+   "heure": "15:50",
+   "quinte": false,
+   "partants": [
+    {
+     "num": 1,
+     "nom": "Cheval exemple 1",
+     "jockey": "Jockey A",
+     "cote": 28.7,
+     "proba": 0.042,
+     "top3": 0.109,
+     "forme": [
+      "2",
+      "D",
+      "1",
+      "4",
+      "3"
+     ],
+     "evol": [
+      31.0,
+      32.5,
+      34.0,
+      31.3,
+      26.4,
+      29.2,
+      28.7
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 1",
+     "proprietaire": "Propriétaire A",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 1",
+     "casaque": [
+      "#2b6cff",
+      "#d33"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Non",
+     "age": 6,
+     "victoires": 3,
+     "courses": 43
+    },
+    {
+     "num": 2,
+     "nom": "Cheval exemple 2",
+     "jockey": "Jockey B",
+     "cote": 10.2,
+     "proba": 0.125,
+     "top3": 0.325,
+     "forme": [
+      "0",
+      "2",
+      "4",
+      "D",
+      "1"
+     ],
+     "evol": [
+      9.3,
+      9.6,
+      9.9,
+      11.2,
+      10.5,
+      10.9,
+      10.2
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 2",
+     "proprietaire": "Propriétaire B",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#f0c030",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 4,
+     "victoires": 5,
+     "courses": 8
+    },
+    {
+     "num": 3,
+     "nom": "Cheval exemple 3",
+     "jockey": "Jockey C",
+     "cote": 8.9,
+     "proba": 0.115,
+     "top3": 0.299,
+     "forme": [
+      "5",
+      "0",
+      "D",
+      "3",
+      "2"
+     ],
+     "evol": [
+      10.3,
+      8.8,
+      9.0,
+      8.2,
+      10.3,
+      7.6,
+      8.9
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 3",
+     "proprietaire": "Propriétaire C",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2aa86a",
+      "#d33"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Non",
+     "age": 7,
+     "victoires": 9,
+     "courses": 27
+    },
+    {
+     "num": 4,
+     "nom": "Cheval exemple 4",
+     "jockey": "Jockey D",
+     "cote": 11.6,
+     "proba": 0.083,
+     "top3": 0.216,
+     "forme": [
+      "2",
+      "4",
+      "1",
+      "3",
+      "D"
+     ],
+     "evol": [
+      13.8,
+      10.3,
+      13.4,
+      13.1,
+      13.6,
+      10.4,
+      11.6
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 4",
+     "proprietaire": "Propriétaire D",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 5",
+     "casaque": [
+      "#8a4fd0",
+      "#f0c030"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 9,
+     "victoires": 2,
+     "courses": 34
+    },
+    {
+     "num": 5,
+     "nom": "Cheval exemple 5",
+     "jockey": "Jockey E",
+     "cote": 28.5,
+     "proba": 0.052,
+     "top3": 0.135,
+     "forme": [
+      "3",
+      "5",
+      "4",
+      "0",
+      "2"
+     ],
+     "evol": [
+      33.5,
+      26.8,
+      31.4,
+      24.4,
+      29.3,
+      24.6,
+      28.5
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 5",
+     "proprietaire": "Propriétaire E",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#2b6cff",
+      "#fff"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Classiques",
+     "age": 4,
+     "victoires": 2,
+     "courses": 46
+    },
+    {
+     "num": 6,
+     "nom": "Cheval exemple 6",
+     "jockey": "Jockey F",
+     "cote": 5.7,
+     "proba": 0.25,
+     "top3": 0.65,
+     "forme": [
+      "2",
+      "4",
+      "0",
+      "D",
+      "5"
+     ],
+     "evol": [
+      5.3,
+      6.6,
+      5.7,
+      4.9,
+      5.9,
+      6.2,
+      5.7
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 6",
+     "proprietaire": "Propriétaire F",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#d33",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Australiennes",
+     "age": 7,
+     "victoires": 9,
+     "courses": 42
+    },
+    {
+     "num": 7,
+     "nom": "Cheval exemple 7",
+     "jockey": "Jockey G",
+     "cote": 15.9,
+     "proba": 0.073,
+     "top3": 0.19,
+     "forme": [
+      "2",
+      "5",
+      "D",
+      "3",
+      "0"
+     ],
+     "evol": [
+      17.3,
+      17.7,
+      16.0,
+      16.6,
+      18.1,
+      16.6,
+      15.9
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 7",
+     "proprietaire": "Propriétaire G",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#8a4fd0",
+      "#2aa86a"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Classiques",
+     "age": 4,
+     "victoires": 7,
+     "courses": 26
+    },
+    {
+     "num": 8,
+     "nom": "Cheval exemple 8",
+     "jockey": "Jockey H",
+     "cote": 6.6,
+     "proba": 0.188,
+     "top3": 0.489,
+     "forme": [
+      "3",
+      "5",
+      "4",
+      "2",
+      "D"
+     ],
+     "evol": [
+      7.8,
+      7.6,
+      7.0,
+      6.3,
+      5.9,
+      6.9,
+      6.6
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 8",
+     "proprietaire": "Propriétaire H",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#2b6cff",
+      "#8a4fd0"
+     ],
+     "deferre": "Antérieurs",
+     "oeilleres": "Australiennes",
+     "age": 6,
+     "victoires": 4,
+     "courses": 34
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "jockey": "Jockey I",
+     "cote": 15.5,
+     "proba": 0.073,
+     "top3": 0.19,
+     "forme": [
+      "0",
+      "5",
+      "1",
+      "4",
+      "D"
+     ],
+     "evol": [
+      15.9,
+      16.5,
+      13.3,
+      18.4,
+      16.0,
+      15.3,
+      15.5
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 9",
+     "proprietaire": "Propriétaire I",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#2aa86a",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 3,
+     "victoires": 1,
+     "courses": 50
+    }
+   ],
+   "terrain": "Souple",
+   "penetrometre": 3.0,
+   "meteo": {
+    "temp": 16,
+    "vent": 9,
+    "pluie_mm": 0,
+    "ciel": "Nuageux"
+   },
+   "lat": 49.195,
+   "lon": 2.48
+  },
+  {
+   "id": "R3C5",
+   "label": "R3·C5",
+   "hippo": "Hippodrome exemple C",
+   "discipline": "Obstacle",
+   "heure": "17:10",
+   "quinte": false,
+   "partants": [
+    {
+     "num": 1,
+     "nom": "Cheval exemple 1",
+     "jockey": "Jockey A",
+     "cote": 11.6,
+     "proba": 0.122,
+     "top3": 0.317,
+     "forme": [
+      "3",
+      "2",
+      "1",
+      "5",
+      "4"
+     ],
+     "evol": [
+      13.7,
+      13.6,
+      12.0,
+      10.3,
+      11.6,
+      10.0,
+      11.6
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 1",
+     "proprietaire": "Propriétaire A",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#2aa86a",
+      "#d33"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 5,
+     "victoires": 2,
+     "courses": 54
+    },
+    {
+     "num": 2,
+     "nom": "Cheval exemple 2",
+     "jockey": "Jockey B",
+     "cote": 19.6,
+     "proba": 0.042,
+     "top3": 0.109,
+     "forme": [
+      "5",
+      "1",
+      "0",
+      "3",
+      "4"
+     ],
+     "evol": [
+      16.7,
+      18.6,
+      21.6,
+      18.3,
+      20.1,
+      20.1,
+      19.6
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 2",
+     "proprietaire": "Propriétaire B",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#8a4fd0",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 9,
+     "victoires": 2,
+     "courses": 27
+    },
+    {
+     "num": 3,
+     "nom": "Cheval exemple 3",
+     "jockey": "Jockey C",
+     "cote": 30.6,
+     "proba": 0.028,
+     "top3": 0.073,
+     "forme": [
+      "2",
+      "D",
+      "5",
+      "0",
+      "3"
+     ],
+     "evol": [
+      31.7,
+      30.7,
+      30.0,
+      30.4,
+      31.7,
+      27.7,
+      30.6
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 3",
+     "proprietaire": "Propriétaire C",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 5",
+     "casaque": [
+      "#f0c030",
+      "#8a4fd0"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 5,
+     "victoires": 5,
+     "courses": 51
+    },
+    {
+     "num": 4,
+     "nom": "Cheval exemple 4",
+     "jockey": "Jockey D",
+     "cote": 8.8,
+     "proba": 0.099,
+     "top3": 0.257,
+     "forme": [
+      "2",
+      "3",
+      "5",
+      "D",
+      "1"
+     ],
+     "evol": [
+      9.2,
+      9.3,
+      7.9,
+      10.3,
+      9.4,
+      8.6,
+      8.8
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 4",
+     "proprietaire": "Propriétaire D",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 1",
+     "casaque": [
+      "#f0c030",
+      "#8a4fd0"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Non",
+     "age": 8,
+     "victoires": 8,
+     "courses": 20
+    },
+    {
+     "num": 5,
+     "nom": "Cheval exemple 5",
+     "jockey": "Jockey E",
+     "cote": 10.3,
+     "proba": 0.085,
+     "top3": 0.221,
+     "forme": [
+      "1",
+      "4",
+      "D",
+      "2",
+      "0"
+     ],
+     "evol": [
+      12.4,
+      12.0,
+      9.2,
+      9.6,
+      11.4,
+      9.7,
+      10.3
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 5",
+     "proprietaire": "Propriétaire E",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#8a4fd0",
+      "#fff"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Classiques",
+     "age": 6,
+     "victoires": 6,
+     "courses": 51
+    },
+    {
+     "num": 6,
+     "nom": "Cheval exemple 6",
+     "jockey": "Jockey F",
+     "cote": 12.8,
+     "proba": 0.08,
+     "top3": 0.208,
+     "forme": [
+      "1",
+      "D",
+      "5",
+      "3",
+      "4"
+     ],
+     "evol": [
+      13.9,
+      11.0,
+      11.8,
+      13.9,
+      15.0,
+      15.2,
+      12.8
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 6",
+     "proprietaire": "Propriétaire F",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#d33",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 7,
+     "victoires": 4,
+     "courses": 49
+    },
+    {
+     "num": 7,
+     "nom": "Cheval exemple 7",
+     "jockey": "Jockey G",
+     "cote": 20.0,
+     "proba": 0.075,
+     "top3": 0.195,
+     "forme": [
+      "5",
+      "4",
+      "2",
+      "0",
+      "1"
+     ],
+     "evol": [
+      22.8,
+      22.6,
+      20.4,
+      17.2,
+      22.3,
+      21.3,
+      20.0
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 7",
+     "proprietaire": "Propriétaire G",
+     "ecurie": "Écurie exemple 3",
+     "entraineur": "Entraîneur 2",
+     "casaque": [
+      "#2b6cff",
+      "#2aa86a"
+     ],
+     "deferre": "4 pieds",
+     "oeilleres": "Australiennes",
+     "age": 7,
+     "victoires": 2,
+     "courses": 35
+    },
+    {
+     "num": 8,
+     "nom": "Cheval exemple 8",
+     "jockey": "Jockey H",
+     "cote": 14.1,
+     "proba": 0.056,
+     "top3": 0.146,
+     "forme": [
+      "D",
+      "4",
+      "1",
+      "5",
+      "2"
+     ],
+     "evol": [
+      12.8,
+      12.8,
+      13.4,
+      15.3,
+      14.8,
+      12.6,
+      14.1
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 8",
+     "proprietaire": "Propriétaire H",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#2b6cff",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 8,
+     "victoires": 0,
+     "courses": 29
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "jockey": "Jockey I",
+     "cote": 19.5,
+     "proba": 0.052,
+     "top3": 0.135,
+     "forme": [
+      "2",
+      "0",
+      "4",
+      "5",
+      "D"
+     ],
+     "evol": [
+      19.5,
+      19.0,
+      18.0,
+      19.1,
+      20.9,
+      16.9,
+      19.5
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 9",
+     "proprietaire": "Propriétaire I",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 4",
+     "casaque": [
+      "#fff",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 9,
+     "victoires": 1,
+     "courses": 22
+    },
+    {
+     "num": 10,
+     "nom": "Cheval exemple 10",
+     "jockey": "Jockey J",
+     "cote": 14.5,
+     "proba": 0.089,
+     "top3": 0.231,
+     "forme": [
+      "0",
+      "D",
+      "4",
+      "2",
+      "3"
+     ],
+     "evol": [
+      14.4,
+      13.3,
+      13.2,
+      14.9,
+      12.4,
+      16.9,
+      14.5
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 10",
+     "proprietaire": "Propriétaire J",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#fff",
+      "#2aa86a"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 7,
+     "victoires": 2,
+     "courses": 34
+    },
+    {
+     "num": 11,
+     "nom": "Cheval exemple 11",
+     "jockey": "Jockey K",
+     "cote": 13.1,
+     "proba": 0.089,
+     "top3": 0.231,
+     "forme": [
+      "4",
+      "2",
+      "3",
+      "5",
+      "D"
+     ],
+     "evol": [
+      12.7,
+      14.6,
+      12.4,
+      11.7,
+      14.5,
+      11.9,
+      13.1
+     ],
+     "pere": "Père exemple B",
+     "mere": "Mère exemple 11",
+     "proprietaire": "Propriétaire K",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 5",
+     "casaque": [
+      "#2b6cff",
+      "#d33"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Classiques",
+     "age": 8,
+     "victoires": 1,
+     "courses": 25
+    },
+    {
+     "num": 12,
+     "nom": "Cheval exemple 12",
+     "jockey": "Jockey L",
+     "cote": 34.5,
+     "proba": 0.038,
+     "top3": 0.099,
+     "forme": [
+      "3",
+      "D",
+      "5",
+      "1",
+      "4"
+     ],
+     "evol": [
+      34.2,
+      38.1,
+      30.2,
+      33.5,
+      35.0,
+      29.5,
+      34.5
+     ],
+     "pere": "Père exemple A",
+     "mere": "Mère exemple 12",
+     "proprietaire": "Propriétaire L",
+     "ecurie": "Écurie exemple 1",
+     "entraineur": "Entraîneur 6",
+     "casaque": [
+      "#2aa86a",
+      "#8a4fd0"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 6,
+     "victoires": 1,
+     "courses": 28
+    },
+    {
+     "num": 13,
+     "nom": "Cheval exemple 13",
+     "jockey": "Jockey M",
+     "cote": 13.9,
+     "proba": 0.066,
+     "top3": 0.172,
+     "forme": [
+      "5",
+      "4",
+      "2",
+      "1",
+      "0"
+     ],
+     "evol": [
+      16.5,
+      13.3,
+      12.9,
+      13.8,
+      12.7,
+      12.2,
+      13.9
+     ],
+     "pere": "Père exemple D",
+     "mere": "Mère exemple 13",
+     "proprietaire": "Propriétaire M",
+     "ecurie": "Écurie exemple 4",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#fff",
+      "#f0c030"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Non",
+     "age": 8,
+     "victoires": 4,
+     "courses": 17
+    },
+    {
+     "num": 14,
+     "nom": "Cheval exemple 14",
+     "jockey": "Jockey N",
+     "cote": 18.6,
+     "proba": 0.08,
+     "top3": 0.208,
+     "forme": [
+      "2",
+      "D",
+      "4",
+      "1",
+      "5"
+     ],
+     "evol": [
+      16.0,
+      19.8,
+      20.6,
+      17.5,
+      18.4,
+      16.1,
+      18.6
+     ],
+     "pere": "Père exemple C",
+     "mere": "Mère exemple 14",
+     "proprietaire": "Propriétaire N",
+     "ecurie": "Écurie exemple 2",
+     "entraineur": "Entraîneur 3",
+     "casaque": [
+      "#d33",
+      "#8a4fd0"
+     ],
+     "deferre": "Non",
+     "oeilleres": "Australiennes",
+     "age": 9,
+     "victoires": 4,
+     "courses": 41
+    }
+   ],
+   "terrain": "Collant",
+   "penetrometre": 3.0,
+   "meteo": {
+    "temp": 6,
+    "vent": 8,
+    "pluie_mm": 2.1,
+    "ciel": "Dégagé"
+   },
+   "lat": 43.6636,
+   "lon": 7.1583
+  }
+ ],
+ "resultats": [
+  {
+   "course": "R1·C1",
+   "arrivee": [
+    7,
+    2,
+    5
+   ],
+   "nexa_top1": 7,
+   "statut": "gagnant"
+  },
+  {
+   "course": "R1·C2",
+   "arrivee": [
+    3,
+    9,
+    1
+   ],
+   "nexa_top1": 9,
+   "statut": "place"
+  },
+  {
+   "course": "R2·C1",
+   "arrivee": [
+    4,
+    6,
+    8
+   ],
+   "nexa_top1": 2,
+   "statut": "rate"
+  },
+  {
+   "course": "R2·C2",
+   "arrivee": [
+    1,
+    5,
+    3
+   ],
+   "nexa_top1": 1,
+   "statut": "gagnant"
+  },
+  {
+   "course": "R3·C1",
+   "arrivee": [
+    8,
+    2,
+    10
+   ],
+   "nexa_top1": 6,
+   "statut": "rate"
+  }
+ ],
+ "tickets": [
+  {
+   "course": "R1·C4",
+   "reunion": "R1",
+   "hippo": "Hippodrome exemple A",
+   "heure": "14:05",
+   "statut": "terminee",
+   "arrivee": [
+    3,
+    7,
+    9
+   ],
+   "dispo": [
+    "SG",
+    "SP",
+    "CG",
+    "CP",
+    "T3",
+    "M4",
+    "P5"
+   ],
+   "jeux": [
+    {
+     "code": "SG",
+     "libelle": "Simple gagnant",
+     "famille": "Simple gagnant",
+     "nums": [
+      6
+     ],
+     "confiance": 0.59,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": "perdu"
+    },
+    {
+     "code": "SP",
+     "libelle": "Simple placé",
+     "famille": "Simple placé",
+     "nums": [
+      2
+     ],
+     "confiance": 0.75,
+     "agent": "Agent Régularité",
+     "resultat": "perdu"
+    },
+    {
+     "code": "CG",
+     "libelle": "Couplé gagnant",
+     "famille": "Couplé",
+     "nums": [
+      6,
+      2
+     ],
+     "confiance": 0.61,
+     "agent": "Agent Forme",
+     "resultat": "perdu"
+    },
+    {
+     "code": "CP",
+     "libelle": "Couplé placé",
+     "famille": "Couplé",
+     "nums": [
+      6,
+      2
+     ],
+     "confiance": 0.82,
+     "agent": "Agent Marché (cotes)",
+     "resultat": "perdu"
+    },
+    {
+     "code": "T3",
+     "libelle": "Trio",
+     "famille": "Trio",
+     "nums": [
+      6,
+      2,
+      5
+     ],
+     "confiance": 0.75,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": "perdu"
+    },
+    {
+     "code": "M4",
+     "libelle": "Multi en 4",
+     "famille": "Multi",
+     "nums": [
+      1,
+      6,
+      9,
+      5
+     ],
+     "confiance": 0.74,
+     "agent": "Agent Marché (cotes)",
+     "resultat": "perdu"
+    },
+    {
+     "code": "P5",
+     "libelle": "Pick 5",
+     "famille": "Pick 5",
+     "nums": [
+      6,
+      2,
+      5,
+      9,
+      10
+     ],
+     "confiance": 0.37,
+     "agent": "Agent Terrain & Parcours",
+     "resultat": "perdu"
+    }
+   ],
+   "outsiders": [
+    {
+     "num": 1,
+     "nom": "Cheval exemple 1",
+     "cote": 11.7,
+     "raison": "Rentrée avec de la fraîcheur"
+    },
+    {
+     "num": 3,
+     "nom": "Cheval exemple 3",
+     "cote": 11.4,
+     "raison": "Terrain qui lui convient"
+    }
+   ]
+  },
+  {
+   "course": "R1·C6",
+   "reunion": "R1",
+   "hippo": "Hippodrome exemple A",
+   "heure": "15:20",
+   "statut": "en_cours",
+   "arrivee": null,
+   "dispo": [
+    "SG",
+    "SP",
+    "CG",
+    "CP",
+    "T3",
+    "M4",
+    "P5",
+    "QA",
+    "S4"
+   ],
+   "jeux": [
+    {
+     "code": "SG",
+     "libelle": "Simple gagnant",
+     "famille": "Simple gagnant",
+     "nums": [
+      10
+     ],
+     "confiance": 0.67,
+     "agent": "Agent Terrain & Parcours",
+     "resultat": null
+    },
+    {
+     "code": "SP",
+     "libelle": "Simple placé",
+     "famille": "Simple placé",
+     "nums": [
+      10
+     ],
+     "confiance": 0.72,
+     "agent": "Agent Forme",
+     "resultat": null
+    },
+    {
+     "code": "CG",
+     "libelle": "Couplé gagnant",
+     "famille": "Couplé",
+     "nums": [
+      10,
+      7
+     ],
+     "confiance": 0.81,
+     "agent": "Agent Marché (cotes)",
+     "resultat": null
+    },
+    {
+     "code": "CP",
+     "libelle": "Couplé placé",
+     "famille": "Couplé",
+     "nums": [
+      10,
+      7
+     ],
+     "confiance": 0.71,
+     "agent": "Agent Marché (cotes)",
+     "resultat": null
+    },
+    {
+     "code": "T3",
+     "libelle": "Trio",
+     "famille": "Trio",
+     "nums": [
+      10,
+      7,
+      2
+     ],
+     "confiance": 0.44,
+     "agent": "Agent Forme",
+     "resultat": null
+    },
+    {
+     "code": "M4",
+     "libelle": "Multi en 4",
+     "famille": "Multi",
+     "nums": [
+      10,
+      7,
+      2,
+      11
+     ],
+     "confiance": 0.76,
+     "agent": "Agent Forme",
+     "resultat": null
+    },
+    {
+     "code": "P5",
+     "libelle": "Pick 5",
+     "famille": "Pick 5",
+     "nums": [
+      7,
+      12,
+      8,
+      10,
+      11
+     ],
+     "confiance": 0.63,
+     "agent": "Agent Régularité",
+     "resultat": null
+    },
+    {
+     "code": "QA",
+     "libelle": "Quarté+",
+     "famille": "Quarté+",
+     "nums": [
+      7,
+      2,
+      12,
+      8
+     ],
+     "confiance": 0.55,
+     "agent": "Agent Terrain & Parcours",
+     "resultat": null
+    },
+    {
+     "code": "S4",
+     "libelle": "Super 4",
+     "famille": "Super 4",
+     "nums": [
+      8,
+      11,
+      2,
+      7
+     ],
+     "confiance": 0.54,
+     "agent": "Agent Forme",
+     "resultat": null
+    }
+   ],
+   "outsiders": [
+    {
+     "num": 12,
+     "nom": "Cheval exemple 12",
+     "cote": 11.1,
+     "raison": "Cote en baisse depuis ce matin"
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "cote": 16.2,
+     "raison": "Cote en baisse depuis ce matin"
+    }
+   ]
+  },
+  {
+   "course": "R2·C3",
+   "reunion": "R2",
+   "hippo": "Hippodrome exemple B",
+   "heure": "15:50",
+   "statut": "a_venir",
+   "arrivee": null,
+   "dispo": [
+    "SG",
+    "SP",
+    "CG",
+    "CP",
+    "T3",
+    "M4"
+   ],
+   "jeux": [
+    {
+     "code": "SG",
+     "libelle": "Simple gagnant",
+     "famille": "Simple gagnant",
+     "nums": [
+      8
+     ],
+     "confiance": 0.35,
+     "agent": "Agent Forme",
+     "resultat": null
+    },
+    {
+     "code": "SP",
+     "libelle": "Simple placé",
+     "famille": "Simple placé",
+     "nums": [
+      6
+     ],
+     "confiance": 0.72,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": null
+    },
+    {
+     "code": "CG",
+     "libelle": "Couplé gagnant",
+     "famille": "Couplé",
+     "nums": [
+      6,
+      8
+     ],
+     "confiance": 0.51,
+     "agent": "Agent Régularité",
+     "resultat": null
+    },
+    {
+     "code": "CP",
+     "libelle": "Couplé placé",
+     "famille": "Couplé",
+     "nums": [
+      6,
+      8
+     ],
+     "confiance": 0.68,
+     "agent": "IA principale NEXA",
+     "resultat": null
+    },
+    {
+     "code": "T3",
+     "libelle": "Trio",
+     "famille": "Trio",
+     "nums": [
+      6,
+      8,
+      2
+     ],
+     "confiance": 0.81,
+     "agent": "Agent Terrain & Parcours",
+     "resultat": null
+    },
+    {
+     "code": "M4",
+     "libelle": "Multi en 4",
+     "famille": "Multi",
+     "nums": [
+      2,
+      8,
+      6,
+      3
+     ],
+     "confiance": 0.38,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": null
+    }
+   ],
+   "outsiders": [
+    {
+     "num": 7,
+     "nom": "Cheval exemple 7",
+     "cote": 15.9,
+     "raison": "Terrain qui lui convient"
+    },
+    {
+     "num": 9,
+     "nom": "Cheval exemple 9",
+     "cote": 15.5,
+     "raison": "Terrain qui lui convient"
+    }
+   ]
+  },
+  {
+   "course": "R3·C5",
+   "reunion": "R3",
+   "hippo": "Hippodrome exemple C",
+   "heure": "17:10",
+   "statut": "a_venir",
+   "arrivee": null,
+   "dispo": [
+    "SG",
+    "SP",
+    "CG",
+    "CP",
+    "T3",
+    "M4",
+    "P5"
+   ],
+   "jeux": [
+    {
+     "code": "SG",
+     "libelle": "Simple gagnant",
+     "famille": "Simple gagnant",
+     "nums": [
+      1
+     ],
+     "confiance": 0.37,
+     "agent": "Agent Régularité",
+     "resultat": null
+    },
+    {
+     "code": "SP",
+     "libelle": "Simple placé",
+     "famille": "Simple placé",
+     "nums": [
+      1
+     ],
+     "confiance": 0.55,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": null
+    },
+    {
+     "code": "CG",
+     "libelle": "Couplé gagnant",
+     "famille": "Couplé",
+     "nums": [
+      1,
+      4
+     ],
+     "confiance": 0.6,
+     "agent": "Agent Marché (cotes)",
+     "resultat": null
+    },
+    {
+     "code": "CP",
+     "libelle": "Couplé placé",
+     "famille": "Couplé",
+     "nums": [
+      1,
+      4
+     ],
+     "confiance": 0.82,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": null
+    },
+    {
+     "code": "T3",
+     "libelle": "Trio",
+     "famille": "Trio",
+     "nums": [
+      1,
+      4,
+      10
+     ],
+     "confiance": 0.38,
+     "agent": "Agent Marché (cotes)",
+     "resultat": null
+    },
+    {
+     "code": "M4",
+     "libelle": "Multi en 4",
+     "famille": "Multi",
+     "nums": [
+      11,
+      1,
+      10,
+      5
+     ],
+     "confiance": 0.78,
+     "agent": "IA principale NEXA",
+     "resultat": null
+    },
+    {
+     "code": "P5",
+     "libelle": "Pick 5",
+     "famille": "Pick 5",
+     "nums": [
+      1,
+      4,
+      10,
+      11,
+      5
+     ],
+     "confiance": 0.56,
+     "agent": "Agent Jockey & Entraîneur",
+     "resultat": null
+    }
+   ],
+   "outsiders": [
+    {
+     "num": 6,
+     "nom": "Cheval exemple 6",
+     "cote": 12.8,
+     "raison": "Terrain qui lui convient"
+    },
+    {
+     "num": 14,
+     "nom": "Cheval exemple 14",
+     "cote": 18.6,
+     "raison": "Cote en baisse depuis ce matin"
+    }
+   ]
+  }
+ ],
+ "meilleurs": [
+  {
+   "course": "R1·C4",
+   "code": "CP",
+   "libelle": "Couplé placé",
+   "famille": "Couplé",
+   "nums": [
+    6,
+    2
+   ],
+   "confiance": 0.82,
+   "agent": "Agent Marché (cotes)",
+   "resultat": "perdu"
+  },
+  {
+   "course": "R3·C5",
+   "code": "CP",
+   "libelle": "Couplé placé",
+   "famille": "Couplé",
+   "nums": [
+    1,
+    4
+   ],
+   "confiance": 0.82,
+   "agent": "Agent Jockey & Entraîneur",
+   "resultat": null
+  },
+  {
+   "course": "R1·C6",
+   "code": "CG",
+   "libelle": "Couplé gagnant",
+   "famille": "Couplé",
+   "nums": [
+    10,
+    7
+   ],
+   "confiance": 0.81,
+   "agent": "Agent Marché (cotes)",
+   "resultat": null
+  },
+  {
+   "course": "R2·C3",
+   "code": "T3",
+   "libelle": "Trio",
+   "famille": "Trio",
+   "nums": [
+    6,
+    8,
+    2
+   ],
+   "confiance": 0.81,
+   "agent": "Agent Terrain & Parcours",
+   "resultat": null
+  },
+  {
+   "course": "R3·C5",
+   "code": "M4",
+   "libelle": "Multi en 4",
+   "famille": "Multi",
+   "nums": [
+    11,
+    1,
+    10,
+    5
+   ],
+   "confiance": 0.78,
+   "agent": "IA principale NEXA",
+   "resultat": null
+  },
+  {
+   "course": "R1·C6",
+   "code": "M4",
+   "libelle": "Multi en 4",
+   "famille": "Multi",
+   "nums": [
+    10,
+    7,
+    2,
+    11
+   ],
+   "confiance": 0.76,
+   "agent": "Agent Forme",
+   "resultat": null
+  }
+ ],
+ "outsiders": [
+  {
+   "course": "R1·C4",
+   "hippo": "Hippodrome exemple A",
+   "num": 1,
+   "nom": "Cheval exemple 1",
+   "cote": 11.7,
+   "raison": "Rentrée avec de la fraîcheur"
+  },
+  {
+   "course": "R1·C4",
+   "hippo": "Hippodrome exemple A",
+   "num": 3,
+   "nom": "Cheval exemple 3",
+   "cote": 11.4,
+   "raison": "Terrain qui lui convient"
+  },
+  {
+   "course": "R1·C6",
+   "hippo": "Hippodrome exemple A",
+   "num": 12,
+   "nom": "Cheval exemple 12",
+   "cote": 11.1,
+   "raison": "Cote en baisse depuis ce matin"
+  },
+  {
+   "course": "R1·C6",
+   "hippo": "Hippodrome exemple A",
+   "num": 9,
+   "nom": "Cheval exemple 9",
+   "cote": 16.2,
+   "raison": "Cote en baisse depuis ce matin"
+  },
+  {
+   "course": "R2·C3",
+   "hippo": "Hippodrome exemple B",
+   "num": 7,
+   "nom": "Cheval exemple 7",
+   "cote": 15.9,
+   "raison": "Terrain qui lui convient"
+  },
+  {
+   "course": "R2·C3",
+   "hippo": "Hippodrome exemple B",
+   "num": 9,
+   "nom": "Cheval exemple 9",
+   "cote": 15.5,
+   "raison": "Terrain qui lui convient"
+  }
+ ],
+ "agents": [
+  {
+   "id": "dg",
+   "ico": "🎩",
+   "nom": "Directeur du site",
+   "parent": null,
+   "role": "Coordonne tous les agents, décide quoi publier et déclenche le mode secours en cas de problème.",
+   "puissance": 12,
+   "charge": 39,
+   "analyses_jour": 2868
+  },
+  {
+   "id": "donnees",
+   "ico": "📡",
+   "nom": "Agent Données",
+   "parent": "dg",
+   "role": "Collecte programme, partants, cotes et arrivées auprès des sources autorisées, et vérifie qu’elles sont complètes.",
+   "puissance": 6,
+   "charge": 53,
+   "analyses_jour": 2190
+  },
+  {
+   "id": "hist",
+   "ico": "🗄️",
+   "nom": "Agent Historique",
+   "parent": "donnees",
+   "role": "Range l’historique des courses, chevaux, jockeys, écuries et pedigrees.",
+   "puissance": 5,
+   "charge": 86,
+   "analyses_jour": 1075
+  },
+  {
+   "id": "cotes",
+   "ico": "⏱️",
+   "nom": "Agent Cotes en direct",
+   "parent": "donnees",
+   "role": "Suit les cotes en continu et signale les mouvements anormaux.",
+   "puissance": 4,
+   "charge": 82,
+   "analyses_jour": 1136
+  },
+  {
+   "id": "meteo",
+   "ico": "⛅",
+   "nom": "Agent Météo & terrain",
+   "parent": "donnees",
+   "role": "Lit Open-Meteo sur chaque hippodrome et estime l’évolution de l’état du terrain.",
+   "puissance": 5,
+   "charge": 85,
+   "analyses_jour": 1830
+  },
+  {
+   "id": "cerveau",
+   "ico": "🧠",
+   "nom": "NEXA, cerveau pronostic",
+   "parent": "dg",
+   "role": "Calcule la probabilité de victoire de chaque cheval et la compare à la cote du marché.",
+   "puissance": 24,
+   "charge": 74,
+   "analyses_jour": 6336
+  },
+  {
+   "id": "simple",
+   "ico": "1️⃣",
+   "nom": "Agent Simple",
+   "parent": "cerveau",
+   "role": "Compose les tickets Simple gagnant et Simple placé.",
+   "puissance": 6,
+   "charge": 27,
+   "analyses_jour": 1644
+  },
+  {
+   "id": "couple",
+   "ico": "2️⃣",
+   "nom": "Agent Couplé",
+   "parent": "cerveau",
+   "role": "Compose les tickets Couplé gagnant et Couplé placé.",
+   "puissance": 8,
+   "charge": 70,
+   "analyses_jour": 2224
+  },
+  {
+   "id": "trio",
+   "ico": "3️⃣",
+   "nom": "Agent Trio",
+   "parent": "cerveau",
+   "role": "Compose les tickets Trio.",
+   "puissance": 9,
+   "charge": 84,
+   "analyses_jour": 3366
+  },
+  {
+   "id": "multi",
+   "ico": "🔢",
+   "nom": "Agent Multi",
+   "parent": "cerveau",
+   "role": "Compose les tickets Multi.",
+   "puissance": 10,
+   "charge": 24,
+   "analyses_jour": 3380
+  },
+  {
+   "id": "pick5",
+   "ico": "🖐️",
+   "nom": "Agent Pick 5",
+   "parent": "cerveau",
+   "role": "Compose les tickets Pick 5 quand la course le propose.",
+   "puissance": 11,
+   "charge": 53,
+   "analyses_jour": 3113
+  },
+  {
+   "id": "quarte",
+   "ico": "4️⃣",
+   "nom": "Agent Quarté+ & Super 4",
+   "parent": "cerveau",
+   "role": "Compose les tickets Quarté+ et Super 4 quand ils sont disponibles.",
+   "puissance": 12,
+   "charge": 49,
+   "analyses_jour": 2160
+  },
+  {
+   "id": "outsider",
+   "ico": "🎯",
+   "nom": "Agent Outsiders",
+   "parent": "cerveau",
+   "role": "Repère les chevaux sous-estimés par le marché.",
+   "puissance": 9,
+   "charge": 25,
+   "analyses_jour": 2547
+  },
+  {
+   "id": "qualite",
+   "ico": "✅",
+   "nom": "Agent Contrôle qualité",
+   "parent": "dg",
+   "role": "Mesure la réussite réelle de NEXA, publie les échecs et alerte si elle baisse.",
+   "puissance": 7,
+   "charge": 54,
+   "analyses_jour": 1603
+  },
+  {
+   "id": "web",
+   "ico": "🛠️",
+   "nom": "Agent Santé du site",
+   "parent": "dg",
+   "role": "Surveille les erreurs de page, relance ce qui plante et bascule sur la dernière version valide.",
+   "puissance": 8,
+   "charge": 26,
+   "analyses_jour": 2456
+  },
+  {
+   "id": "sav",
+   "ico": "🛟",
+   "nom": "Agent SAV",
+   "parent": "dg",
+   "role": "Répond aux visiteurs, ouvre un ticket si besoin et escalade à l’éditeur.",
+   "puissance": 7,
+   "charge": 33,
+   "analyses_jour": 1988
+  },
+  {
+   "id": "legal",
+   "ico": "⚖️",
+   "nom": "Agent Conformité",
+   "parent": "dg",
+   "role": "Vérifie mentions légales, cookies, âge, jeu responsable et signalement des publicités.",
+   "puissance": 6,
+   "charge": 49,
+   "analyses_jour": 1554
+  },
+  {
+   "id": "pub",
+   "ico": "🤝",
+   "nom": "Agent Partenaires & publicité",
+   "parent": "legal",
+   "role": "Gère les emplacements de partenaires agréés ANJ, sans diffuser sans consentement.",
+   "puissance": 5,
+   "charge": 58,
+   "analyses_jour": 615
+  },
+  {
+   "id": "guide",
+   "ico": "🎓",
+   "nom": "Agent Formation",
+   "parent": "dg",
+   "role": "Rédige et tient à jour le Guide du parieur.",
+   "puissance": 4,
+   "charge": 63,
+   "analyses_jour": 1100
+  }
+ ],
+ "quintes": {
+  "aujourdhui": [
+   {
+    "id": "Q1",
+    "label": "R1·C5 · Quinté+",
+    "hippo": "Hippodrome exemple D",
+    "heure": "15:15",
+    "discipline": "Trot attelé",
+    "nb_partants": 16,
+    "partants": [
+     {
+      "num": 1,
+      "nom": "Cheval exemple 1",
+      "jockey": "Jockey A",
+      "cote": 15.3,
+      "proba": 0.046,
+      "top3": 0.12,
+      "top5": 0.193,
+      "forme": [
+       "3",
+       "1",
+       "4",
+       "2",
+       "D"
+      ],
+      "evol": [
+       15.7,
+       17.5,
+       14.0,
+       14.7,
+       13.5,
+       17.2,
+       15.3
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 1",
+      "proprietaire": "Propriétaire 1",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 8,
+      "courses": 36
+     },
+     {
+      "num": 2,
+      "nom": "Cheval exemple 2",
+      "jockey": "Jockey B",
+      "cote": 22.5,
+      "proba": 0.055,
+      "top3": 0.143,
+      "top5": 0.231,
+      "forme": [
+       "5",
+       "1",
+       "D",
+       "2",
+       "3"
+      ],
+      "evol": [
+       21.7,
+       19.8,
+       23.7,
+       25.6,
+       26.3,
+       25.3,
+       22.5
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 2",
+      "proprietaire": "Propriétaire 2",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#fff",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 7,
+      "victoires": 0,
+      "courses": 57
+     },
+     {
+      "num": 3,
+      "nom": "Cheval exemple 3",
+      "jockey": "Jockey C",
+      "cote": 42.6,
+      "proba": 0.037,
+      "top3": 0.096,
+      "top5": 0.155,
+      "forme": [
+       "0",
+       "5",
+       "D",
+       "2",
+       "1"
+      ],
+      "evol": [
+       44.7,
+       42.2,
+       38.3,
+       48.2,
+       36.4,
+       50.9,
+       42.6
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 3",
+      "proprietaire": "Propriétaire 3",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 1",
+      "casaque": [
+       "#fff",
+       "#f0c030"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 5,
+      "victoires": 8,
+      "courses": 44
+     },
+     {
+      "num": 4,
+      "nom": "Cheval exemple 4",
+      "jockey": "Jockey D",
+      "cote": 32.2,
+      "proba": 0.041,
+      "top3": 0.107,
+      "top5": 0.172,
+      "forme": [
+       "1",
+       "D",
+       "4",
+       "0",
+       "5"
+      ],
+      "evol": [
+       30.7,
+       28.4,
+       36.9,
+       37.7,
+       37.8,
+       35.8,
+       32.2
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 4",
+      "proprietaire": "Propriétaire 4",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 7,
+      "courses": 15
+     },
+     {
+      "num": 5,
+      "nom": "Cheval exemple 5",
+      "jockey": "Jockey E",
+      "cote": 39.9,
+      "proba": 0.037,
+      "top3": 0.096,
+      "top5": 0.155,
+      "forme": [
+       "4",
+       "1",
+       "2",
+       "5",
+       "0"
+      ],
+      "evol": [
+       36.8,
+       45.6,
+       36.2,
+       36.0,
+       34.6,
+       46.0,
+       39.9
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 5",
+      "proprietaire": "Propriétaire 5",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#2aa86a",
+       "#8a4fd0"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Australiennes",
+      "age": 9,
+      "victoires": 1,
+      "courses": 38
+     },
+     {
+      "num": 6,
+      "nom": "Cheval exemple 6",
+      "jockey": "Jockey F",
+      "cote": 54.8,
+      "proba": 0.023,
+      "top3": 0.06,
+      "top5": 0.097,
+      "forme": [
+       "3",
+       "5",
+       "0",
+       "D",
+       "2"
+      ],
+      "evol": [
+       63.3,
+       46.9,
+       55.9,
+       47.3,
+       60.7,
+       46.7,
+       54.8
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 6",
+      "proprietaire": "Propriétaire 6",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#fff",
+       "#d33"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 6,
+      "courses": 26
+     },
+     {
+      "num": 7,
+      "nom": "Cheval exemple 7",
+      "jockey": "Jockey G",
+      "cote": 21.8,
+      "proba": 0.051,
+      "top3": 0.133,
+      "top5": 0.214,
+      "forme": [
+       "4",
+       "5",
+       "0",
+       "2",
+       "3"
+      ],
+      "evol": [
+       21.8,
+       20.4,
+       25.1,
+       25.2,
+       25.1,
+       21.0,
+       21.8
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 7",
+      "proprietaire": "Propriétaire 7",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#fff",
+       "#2aa86a"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 7,
+      "victoires": 6,
+      "courses": 24
+     },
+     {
+      "num": 8,
+      "nom": "Cheval exemple 8",
+      "jockey": "Jockey H",
+      "cote": 13.3,
+      "proba": 0.078,
+      "top3": 0.203,
+      "top5": 0.328,
+      "forme": [
+       "D",
+       "5",
+       "3",
+       "1",
+       "2"
+      ],
+      "evol": [
+       14.4,
+       12.0,
+       13.0,
+       14.9,
+       11.5,
+       15.5,
+       13.3
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 8",
+      "proprietaire": "Propriétaire 8",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 1",
+      "casaque": [
+       "#fff",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 2,
+      "courses": 25
+     },
+     {
+      "num": 9,
+      "nom": "Cheval exemple 9",
+      "jockey": "Jockey I",
+      "cote": 16.1,
+      "proba": 0.088,
+      "top3": 0.229,
+      "top5": 0.37,
+      "forme": [
+       "D",
+       "3",
+       "1",
+       "4",
+       "5"
+      ],
+      "evol": [
+       18.6,
+       15.4,
+       15.7,
+       17.3,
+       17.8,
+       13.7,
+       16.1
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 9",
+      "proprietaire": "Propriétaire 9",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#2aa86a",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 1,
+      "courses": 10
+     },
+     {
+      "num": 10,
+      "nom": "Cheval exemple 10",
+      "jockey": "Jockey J",
+      "cote": 10.7,
+      "proba": 0.097,
+      "top3": 0.252,
+      "top5": 0.407,
+      "forme": [
+       "2",
+       "1",
+       "3",
+       "5",
+       "4"
+      ],
+      "evol": [
+       12.5,
+       9.7,
+       12.4,
+       9.4,
+       9.3,
+       12.8,
+       10.7
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 10",
+      "proprietaire": "Propriétaire 10",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2b6cff",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 7,
+      "victoires": 5,
+      "courses": 28
+     },
+     {
+      "num": 11,
+      "nom": "Cheval exemple 11",
+      "jockey": "Jockey K",
+      "cote": 27.4,
+      "proba": 0.041,
+      "top3": 0.107,
+      "top5": 0.172,
+      "forme": [
+       "2",
+       "4",
+       "5",
+       "D",
+       "3"
+      ],
+      "evol": [
+       27.0,
+       29.6,
+       28.6,
+       25.2,
+       30.0,
+       25.3,
+       27.4
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 11",
+      "proprietaire": "Propriétaire 11",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#fff",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 7,
+      "victoires": 5,
+      "courses": 58
+     },
+     {
+      "num": 12,
+      "nom": "Cheval exemple 12",
+      "jockey": "Jockey L",
+      "cote": 45.7,
+      "proba": 0.028,
+      "top3": 0.073,
+      "top5": 0.118,
+      "forme": [
+       "3",
+       "0",
+       "2",
+       "5",
+       "4"
+      ],
+      "evol": [
+       49.6,
+       52.1,
+       47.3,
+       46.0,
+       43.7,
+       42.7,
+       45.7
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 12",
+      "proprietaire": "Propriétaire 12",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#f0c030",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 5,
+      "victoires": 9,
+      "courses": 34
+     },
+     {
+      "num": 13,
+      "nom": "Cheval exemple 13",
+      "jockey": "Jockey M",
+      "cote": 12.4,
+      "proba": 0.088,
+      "top3": 0.229,
+      "top5": 0.37,
+      "forme": [
+       "5",
+       "0",
+       "4",
+       "D",
+       "1"
+      ],
+      "evol": [
+       13.5,
+       14.0,
+       12.9,
+       12.6,
+       14.5,
+       14.4,
+       12.4
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 13",
+      "proprietaire": "Propriétaire 13",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#8a4fd0",
+       "#f0c030"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 5,
+      "victoires": 4,
+      "courses": 36
+     },
+     {
+      "num": 14,
+      "nom": "Cheval exemple 14",
+      "jockey": "Jockey N",
+      "cote": 11.5,
+      "proba": 0.101,
+      "top3": 0.263,
+      "top5": 0.424,
+      "forme": [
+       "4",
+       "D",
+       "5",
+       "1",
+       "3"
+      ],
+      "evol": [
+       10.1,
+       11.1,
+       13.7,
+       12.4,
+       12.2,
+       13.2,
+       11.5
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 14",
+      "proprietaire": "Propriétaire 14",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#d33",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 7,
+      "courses": 44
+     },
+     {
+      "num": 15,
+      "nom": "Cheval exemple 15",
+      "jockey": "Jockey O",
+      "cote": 9.1,
+      "proba": 0.106,
+      "top3": 0.276,
+      "top5": 0.445,
+      "forme": [
+       "3",
+       "1",
+       "0",
+       "2",
+       "D"
+      ],
+      "evol": [
+       8.8,
+       10.0,
+       9.2,
+       8.1,
+       9.8,
+       8.5,
+       9.1
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 15",
+      "proprietaire": "Propriétaire 15",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#8a4fd0",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 0,
+      "courses": 54
+     },
+     {
+      "num": 16,
+      "nom": "Cheval exemple 16",
+      "jockey": "Jockey P",
+      "cote": 12.3,
+      "proba": 0.083,
+      "top3": 0.216,
+      "top5": 0.349,
+      "forme": [
+       "4",
+       "3",
+       "0",
+       "1",
+       "5"
+      ],
+      "evol": [
+       12.6,
+       12.7,
+       13.0,
+       14.2,
+       10.6,
+       13.3,
+       12.3
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 16",
+      "proprietaire": "Propriétaire 16",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#f0c030",
+       "#fff"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 8,
+      "courses": 42
+     }
+    ],
+    "ordre": [
+     15,
+     14,
+     10,
+     9,
+     13,
+     16,
+     8,
+     2,
+     7,
+     1,
+     4,
+     11,
+     3,
+     5,
+     12,
+     6
+    ],
+    "tickets": [
+     {
+      "famille": "Quinté+",
+      "niveau": "Équilibré",
+      "jeu": "Quinté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       15,
+       14,
+       10,
+       9,
+       13,
+       16
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 6,
+      "cout": 12,
+      "chance": 0.14,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Ambitieux",
+      "jeu": "Quinté+",
+      "formule": "Combiné 8 chevaux",
+      "nums": [
+       15,
+       14,
+       10,
+       9,
+       13,
+       16,
+       8,
+       2
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 56,
+      "cout": 112,
+      "chance": 0.33,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Risqué",
+      "jeu": "Quinté+",
+      "formule": "Champ réduit",
+      "nums": [],
+      "base": [
+       15,
+       14
+      ],
+      "assoc": [
+       10,
+       9,
+       13,
+       2,
+       7
+      ],
+      "mise_unit": 2,
+      "combis": 0,
+      "cout": 0,
+      "chance": 0.06,
+      "risque": "Élevé"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Prudent",
+      "jeu": "Quarté+",
+      "formule": "Unitaire 4 chevaux",
+      "nums": [
+       15,
+       14,
+       10,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 1,
+      "cout": 1.5,
+      "chance": 0.09,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Risqué",
+      "jeu": "Quarté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       15,
+       14,
+       10,
+       9,
+       13,
+       16
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 15,
+      "cout": 22.5,
+      "chance": 0.22,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Prudent",
+      "jeu": "Couplé placé",
+      "formule": "Unitaire",
+      "nums": [
+       15,
+       14
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.46,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Équilibré",
+      "jeu": "Couplé gagnant",
+      "formule": "Unitaire",
+      "nums": [
+       15,
+       14
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.12,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Prudent",
+      "jeu": "Trio",
+      "formule": "Unitaire",
+      "nums": [
+       15,
+       14,
+       10
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.22,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Équilibré",
+      "jeu": "Trio",
+      "formule": "Combiné 5 chevaux",
+      "nums": [
+       15,
+       14,
+       10,
+       9,
+       13
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 10,
+      "cout": 10,
+      "chance": 0.38,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "2 sur 4",
+      "niveau": "Prudent",
+      "jeu": "2 sur 4",
+      "formule": "Unitaire",
+      "nums": [
+       15,
+       14
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.41,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Équilibré",
+      "jeu": "Multi",
+      "formule": "Multi en 4",
+      "nums": [
+       15,
+       14,
+       10,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.17,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Ambitieux",
+      "jeu": "Multi",
+      "formule": "Multi en 5",
+      "nums": [
+       15,
+       14,
+       10,
+       9,
+       13
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 5,
+      "cout": 15,
+      "chance": 0.35,
+      "risque": "Moyen-élevé"
+     }
+    ],
+    "terrain": "Bon",
+    "penetrometre": 3.5,
+    "lat": 48.8567,
+    "lon": 2.2347,
+    "meteo": {
+     "temp": 11,
+     "vent": 25,
+     "pluie_mm": 0,
+     "ciel": "Nuageux"
+    }
+   },
+   {
+    "id": "Q2",
+    "label": "R2·C6 · Quinté+",
+    "hippo": "Hippodrome exemple E",
+    "heure": "16:40",
+    "discipline": "Plat",
+    "nb_partants": 16,
+    "partants": [
+     {
+      "num": 1,
+      "nom": "Cheval exemple 1",
+      "jockey": "Jockey A",
+      "cote": 11.9,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "4",
+       "2",
+       "3",
+       "5",
+       "0"
+      ],
+      "evol": [
+       11.2,
+       14.0,
+       11.6,
+       11.4,
+       13.9,
+       10.2,
+       11.9
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 1",
+      "proprietaire": "Propriétaire 1",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#8a4fd0",
+       "#d33"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 6,
+      "courses": 22
+     },
+     {
+      "num": 2,
+      "nom": "Cheval exemple 2",
+      "jockey": "Jockey B",
+      "cote": 12.2,
+      "proba": 0.102,
+      "top3": 0.265,
+      "top5": 0.428,
+      "forme": [
+       "D",
+       "2",
+       "3",
+       "5",
+       "1"
+      ],
+      "evol": [
+       14.3,
+       14.6,
+       13.1,
+       12.5,
+       12.8,
+       11.1,
+       12.2
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 2",
+      "proprietaire": "Propriétaire 2",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#2b6cff",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 2,
+      "courses": 9
+     },
+     {
+      "num": 3,
+      "nom": "Cheval exemple 3",
+      "jockey": "Jockey C",
+      "cote": 16.2,
+      "proba": 0.097,
+      "top3": 0.252,
+      "top5": 0.407,
+      "forme": [
+       "0",
+       "4",
+       "3",
+       "D",
+       "5"
+      ],
+      "evol": [
+       14.3,
+       15.4,
+       19.1,
+       18.6,
+       14.3,
+       19.2,
+       16.2
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 3",
+      "proprietaire": "Propriétaire 3",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#f0c030",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 9,
+      "victoires": 2,
+      "courses": 43
+     },
+     {
+      "num": 4,
+      "nom": "Cheval exemple 4",
+      "jockey": "Jockey D",
+      "cote": 21.2,
+      "proba": 0.072,
+      "top3": 0.187,
+      "top5": 0.302,
+      "forme": [
+       "0",
+       "3",
+       "1",
+       "D",
+       "4"
+      ],
+      "evol": [
+       19.9,
+       19.2,
+       20.0,
+       19.7,
+       19.9,
+       20.5,
+       21.2
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 4",
+      "proprietaire": "Propriétaire 4",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#fff",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 3,
+      "victoires": 6,
+      "courses": 49
+     },
+     {
+      "num": 5,
+      "nom": "Cheval exemple 5",
+      "jockey": "Jockey E",
+      "cote": 27.6,
+      "proba": 0.038,
+      "top3": 0.099,
+      "top5": 0.16,
+      "forme": [
+       "0",
+       "4",
+       "2",
+       "1",
+       "5"
+      ],
+      "evol": [
+       31.3,
+       31.5,
+       32.3,
+       25.6,
+       29.2,
+       32.2,
+       27.6
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 5",
+      "proprietaire": "Propriétaire 5",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 7,
+      "victoires": 0,
+      "courses": 16
+     },
+     {
+      "num": 6,
+      "nom": "Cheval exemple 6",
+      "jockey": "Jockey F",
+      "cote": 46.5,
+      "proba": 0.021,
+      "top3": 0.055,
+      "top5": 0.088,
+      "forme": [
+       "1",
+       "4",
+       "3",
+       "2",
+       "0"
+      ],
+      "evol": [
+       50.6,
+       48.1,
+       52.1,
+       52.7,
+       51.1,
+       49.3,
+       46.5
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 6",
+      "proprietaire": "Propriétaire 6",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#2aa86a",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 0,
+      "courses": 47
+     },
+     {
+      "num": 7,
+      "nom": "Cheval exemple 7",
+      "jockey": "Jockey G",
+      "cote": 10.9,
+      "proba": 0.081,
+      "top3": 0.211,
+      "top5": 0.34,
+      "forme": [
+       "4",
+       "1",
+       "D",
+       "2",
+       "3"
+      ],
+      "evol": [
+       12.6,
+       12.3,
+       10.6,
+       12.8,
+       11.4,
+       12.1,
+       10.9
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 7",
+      "proprietaire": "Propriétaire 7",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 5",
+      "casaque": [
+       "#2aa86a",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 3,
+      "victoires": 1,
+      "courses": 8
+     },
+     {
+      "num": 8,
+      "nom": "Cheval exemple 8",
+      "jockey": "Jockey H",
+      "cote": 14.9,
+      "proba": 0.072,
+      "top3": 0.187,
+      "top5": 0.302,
+      "forme": [
+       "0",
+       "3",
+       "4",
+       "D",
+       "1"
+      ],
+      "evol": [
+       17.4,
+       13.9,
+       17.4,
+       17.0,
+       14.8,
+       15.0,
+       14.9
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 8",
+      "proprietaire": "Propriétaire 8",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#fff",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 5,
+      "victoires": 0,
+      "courses": 41
+     },
+     {
+      "num": 9,
+      "nom": "Cheval exemple 9",
+      "jockey": "Jockey I",
+      "cote": 18.5,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "1",
+       "3",
+       "D",
+       "0",
+       "2"
+      ],
+      "evol": [
+       20.7,
+       17.1,
+       18.5,
+       16.2,
+       15.9,
+       18.5,
+       18.5
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 9",
+      "proprietaire": "Propriétaire 9",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 1",
+      "casaque": [
+       "#f0c030",
+       "#fff"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 0,
+      "courses": 39
+     },
+     {
+      "num": 10,
+      "nom": "Cheval exemple 10",
+      "jockey": "Jockey J",
+      "cote": 19.5,
+      "proba": 0.059,
+      "top3": 0.153,
+      "top5": 0.248,
+      "forme": [
+       "1",
+       "D",
+       "3",
+       "4",
+       "5"
+      ],
+      "evol": [
+       17.0,
+       21.6,
+       21.8,
+       19.2,
+       18.7,
+       21.1,
+       19.5
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 10",
+      "proprietaire": "Propriétaire 10",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#d33",
+       "#2aa86a"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 6,
+      "victoires": 6,
+      "courses": 31
+     },
+     {
+      "num": 11,
+      "nom": "Cheval exemple 11",
+      "jockey": "Jockey K",
+      "cote": 19.7,
+      "proba": 0.064,
+      "top3": 0.166,
+      "top5": 0.269,
+      "forme": [
+       "3",
+       "1",
+       "D",
+       "5",
+       "0"
+      ],
+      "evol": [
+       21.8,
+       18.3,
+       20.3,
+       18.7,
+       16.8,
+       19.5,
+       19.7
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 11",
+      "proprietaire": "Propriétaire 11",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#fff",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 9,
+      "courses": 35
+     },
+     {
+      "num": 12,
+      "nom": "Cheval exemple 12",
+      "jockey": "Jockey L",
+      "cote": 12.9,
+      "proba": 0.085,
+      "top3": 0.221,
+      "top5": 0.357,
+      "forme": [
+       "1",
+       "5",
+       "0",
+       "D",
+       "4"
+      ],
+      "evol": [
+       14.5,
+       12.3,
+       12.5,
+       12.2,
+       13.1,
+       14.5,
+       12.9
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 12",
+      "proprietaire": "Propriétaire 12",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#f0c030",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 6,
+      "victoires": 2,
+      "courses": 35
+     },
+     {
+      "num": 13,
+      "nom": "Cheval exemple 13",
+      "jockey": "Jockey M",
+      "cote": 15.3,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "4",
+       "2",
+       "1",
+       "5",
+       "3"
+      ],
+      "evol": [
+       16.2,
+       15.3,
+       17.2,
+       16.8,
+       16.2,
+       17.6,
+       15.3
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 13",
+      "proprietaire": "Propriétaire 13",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#fff",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 5,
+      "victoires": 3,
+      "courses": 48
+     },
+     {
+      "num": 14,
+      "nom": "Cheval exemple 14",
+      "jockey": "Jockey N",
+      "cote": 66.5,
+      "proba": 0.021,
+      "top3": 0.055,
+      "top5": 0.088,
+      "forme": [
+       "4",
+       "1",
+       "D",
+       "0",
+       "2"
+      ],
+      "evol": [
+       68.6,
+       68.0,
+       59.1,
+       69.8,
+       60.3,
+       62.9,
+       66.5
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 14",
+      "proprietaire": "Propriétaire 14",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#2aa86a",
+       "#d33"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 6,
+      "courses": 8
+     },
+     {
+      "num": 15,
+      "nom": "Cheval exemple 15",
+      "jockey": "Jockey O",
+      "cote": 21.4,
+      "proba": 0.055,
+      "top3": 0.143,
+      "top5": 0.231,
+      "forme": [
+       "2",
+       "0",
+       "1",
+       "5",
+       "D"
+      ],
+      "evol": [
+       20.8,
+       19.0,
+       20.1,
+       25.2,
+       20.6,
+       23.4,
+       21.4
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 15",
+      "proprietaire": "Propriétaire 15",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 0,
+      "courses": 28
+     },
+     {
+      "num": 16,
+      "nom": "Cheval exemple 16",
+      "jockey": "Jockey P",
+      "cote": 37.3,
+      "proba": 0.03,
+      "top3": 0.078,
+      "top5": 0.126,
+      "forme": [
+       "1",
+       "5",
+       "4",
+       "2",
+       "3"
+      ],
+      "evol": [
+       44.6,
+       35.6,
+       37.5,
+       37.4,
+       33.1,
+       43.6,
+       37.3
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 16",
+      "proprietaire": "Propriétaire 16",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#2b6cff",
+       "#8a4fd0"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 3,
+      "courses": 44
+     }
+    ],
+    "ordre": [
+     2,
+     3,
+     12,
+     7,
+     4,
+     8,
+     1,
+     9,
+     13,
+     11,
+     10,
+     15,
+     5,
+     16,
+     6,
+     14
+    ],
+    "tickets": [
+     {
+      "famille": "Quinté+",
+      "niveau": "Équilibré",
+      "jeu": "Quinté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       2,
+       3,
+       12,
+       7,
+       4,
+       8
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 6,
+      "cout": 12,
+      "chance": 0.14,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Ambitieux",
+      "jeu": "Quinté+",
+      "formule": "Combiné 8 chevaux",
+      "nums": [
+       2,
+       3,
+       12,
+       7,
+       4,
+       8,
+       1,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 56,
+      "cout": 112,
+      "chance": 0.33,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Risqué",
+      "jeu": "Quinté+",
+      "formule": "Champ réduit",
+      "nums": [],
+      "base": [
+       2,
+       3
+      ],
+      "assoc": [
+       12,
+       7,
+       4,
+       9,
+       13
+      ],
+      "mise_unit": 2,
+      "combis": 0,
+      "cout": 0,
+      "chance": 0.06,
+      "risque": "Élevé"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Prudent",
+      "jeu": "Quarté+",
+      "formule": "Unitaire 4 chevaux",
+      "nums": [
+       2,
+       3,
+       12,
+       7
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 1,
+      "cout": 1.5,
+      "chance": 0.09,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Risqué",
+      "jeu": "Quarté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       2,
+       3,
+       12,
+       7,
+       4,
+       8
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 15,
+      "cout": 22.5,
+      "chance": 0.22,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Prudent",
+      "jeu": "Couplé placé",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.46,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Équilibré",
+      "jeu": "Couplé gagnant",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.12,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Prudent",
+      "jeu": "Trio",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       3,
+       12
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.22,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Équilibré",
+      "jeu": "Trio",
+      "formule": "Combiné 5 chevaux",
+      "nums": [
+       2,
+       3,
+       12,
+       7,
+       4
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 10,
+      "cout": 10,
+      "chance": 0.38,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "2 sur 4",
+      "niveau": "Prudent",
+      "jeu": "2 sur 4",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.41,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Équilibré",
+      "jeu": "Multi",
+      "formule": "Multi en 4",
+      "nums": [
+       2,
+       3,
+       12,
+       7
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.17,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Ambitieux",
+      "jeu": "Multi",
+      "formule": "Multi en 5",
+      "nums": [
+       2,
+       3,
+       12,
+       7,
+       4
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 5,
+      "cout": 15,
+      "chance": 0.35,
+      "risque": "Moyen-élevé"
+     }
+    ],
+    "terrain": "Bon",
+    "penetrometre": 4.1,
+    "lat": 48.8567,
+    "lon": 2.2347,
+    "meteo": {
+     "temp": 11,
+     "vent": 11,
+     "pluie_mm": 0,
+     "ciel": "Nuageux"
+    }
+   }
+  ],
+  "demain": [
+   {
+    "id": "Q3",
+    "label": "R1·C4 · Quinté+",
+    "hippo": "Hippodrome exemple F",
+    "heure": "14:50",
+    "discipline": "Plat",
+    "nb_partants": 16,
+    "partants": [
+     {
+      "num": 1,
+      "nom": "Cheval exemple 1",
+      "jockey": "Jockey A",
+      "cote": 26.7,
+      "proba": 0.034,
+      "top3": 0.088,
+      "top5": 0.143,
+      "forme": [
+       "0",
+       "D",
+       "1",
+       "3",
+       "2"
+      ],
+      "evol": [
+       30.1,
+       30.3,
+       25.8,
+       26.2,
+       31.2,
+       23.2,
+       26.7
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 1",
+      "proprietaire": "Propriétaire 1",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#8a4fd0",
+       "#f0c030"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 9,
+      "victoires": 7,
+      "courses": 18
+     },
+     {
+      "num": 2,
+      "nom": "Cheval exemple 2",
+      "jockey": "Jockey B",
+      "cote": 27.3,
+      "proba": 0.058,
+      "top3": 0.151,
+      "top5": 0.244,
+      "forme": [
+       "D",
+       "3",
+       "2",
+       "1",
+       "5"
+      ],
+      "evol": [
+       30.1,
+       23.8,
+       25.7,
+       32.6,
+       28.6,
+       24.6,
+       27.3
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 2",
+      "proprietaire": "Propriétaire 2",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#8a4fd0",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 7,
+      "courses": 19
+     },
+     {
+      "num": 3,
+      "nom": "Cheval exemple 3",
+      "jockey": "Jockey C",
+      "cote": 14.7,
+      "proba": 0.102,
+      "top3": 0.265,
+      "top5": 0.428,
+      "forme": [
+       "3",
+       "5",
+       "0",
+       "D",
+       "1"
+      ],
+      "evol": [
+       15.6,
+       14.5,
+       17.6,
+       14.8,
+       15.9,
+       17.1,
+       14.7
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 3",
+      "proprietaire": "Propriétaire 3",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#8a4fd0",
+       "#f0c030"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 6,
+      "victoires": 5,
+      "courses": 22
+     },
+     {
+      "num": 4,
+      "nom": "Cheval exemple 4",
+      "jockey": "Jockey D",
+      "cote": 17.9,
+      "proba": 0.053,
+      "top3": 0.138,
+      "top5": 0.223,
+      "forme": [
+       "4",
+       "2",
+       "0",
+       "3",
+       "5"
+      ],
+      "evol": [
+       19.8,
+       15.8,
+       19.1,
+       18.5,
+       16.7,
+       16.8,
+       17.9
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 4",
+      "proprietaire": "Propriétaire 4",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2aa86a",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 2,
+      "courses": 9
+     },
+     {
+      "num": 5,
+      "nom": "Cheval exemple 5",
+      "jockey": "Jockey E",
+      "cote": 95.4,
+      "proba": 0.015,
+      "top3": 0.039,
+      "top5": 0.063,
+      "forme": [
+       "3",
+       "2",
+       "4",
+       "5",
+       "D"
+      ],
+      "evol": [
+       92.1,
+       101.8,
+       111.2,
+       107.6,
+       96.2,
+       96.1,
+       95.4
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 5",
+      "proprietaire": "Propriétaire 5",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#d33",
+       "#8a4fd0"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 4,
+      "courses": 57
+     },
+     {
+      "num": 6,
+      "nom": "Cheval exemple 6",
+      "jockey": "Jockey F",
+      "cote": 12.8,
+      "proba": 0.073,
+      "top3": 0.19,
+      "top5": 0.307,
+      "forme": [
+       "3",
+       "2",
+       "4",
+       "5",
+       "1"
+      ],
+      "evol": [
+       11.1,
+       14.5,
+       12.7,
+       11.8,
+       11.3,
+       14.2,
+       12.8
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 6",
+      "proprietaire": "Propriétaire 6",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 1,
+      "courses": 34
+     },
+     {
+      "num": 7,
+      "nom": "Cheval exemple 7",
+      "jockey": "Jockey G",
+      "cote": 79.3,
+      "proba": 0.015,
+      "top3": 0.039,
+      "top5": 0.063,
+      "forme": [
+       "4",
+       "1",
+       "2",
+       "3",
+       "0"
+      ],
+      "evol": [
+       77.1,
+       76.4,
+       77.2,
+       91.5,
+       92.1,
+       93.7,
+       79.3
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 7",
+      "proprietaire": "Propriétaire 7",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#fff",
+       "#f0c030"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 7,
+      "victoires": 7,
+      "courses": 12
+     },
+     {
+      "num": 8,
+      "nom": "Cheval exemple 8",
+      "jockey": "Jockey H",
+      "cote": 13.8,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "4",
+       "1",
+       "3",
+       "5",
+       "0"
+      ],
+      "evol": [
+       14.2,
+       12.2,
+       15.1,
+       16.4,
+       16.2,
+       11.8,
+       13.8
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 8",
+      "proprietaire": "Propriétaire 8",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 1",
+      "casaque": [
+       "#fff",
+       "#2aa86a"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 8,
+      "courses": 26
+     },
+     {
+      "num": 9,
+      "nom": "Cheval exemple 9",
+      "jockey": "Jockey I",
+      "cote": 17.5,
+      "proba": 0.063,
+      "top3": 0.164,
+      "top5": 0.265,
+      "forme": [
+       "4",
+       "1",
+       "3",
+       "0",
+       "2"
+      ],
+      "evol": [
+       18.5,
+       16.3,
+       15.8,
+       16.2,
+       15.6,
+       15.8,
+       17.5
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 9",
+      "proprietaire": "Propriétaire 9",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#2aa86a",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 6,
+      "victoires": 2,
+      "courses": 42
+     },
+     {
+      "num": 10,
+      "nom": "Cheval exemple 10",
+      "jockey": "Jockey J",
+      "cote": 20.4,
+      "proba": 0.063,
+      "top3": 0.164,
+      "top5": 0.265,
+      "forme": [
+       "3",
+       "5",
+       "0",
+       "1",
+       "D"
+      ],
+      "evol": [
+       19.7,
+       21.7,
+       22.0,
+       17.7,
+       17.7,
+       21.4,
+       20.4
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 10",
+      "proprietaire": "Propriétaire 10",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#d33",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 3,
+      "victoires": 4,
+      "courses": 28
+     },
+     {
+      "num": 11,
+      "nom": "Cheval exemple 11",
+      "jockey": "Jockey K",
+      "cote": 43.2,
+      "proba": 0.034,
+      "top3": 0.088,
+      "top5": 0.143,
+      "forme": [
+       "3",
+       "0",
+       "2",
+       "1",
+       "4"
+      ],
+      "evol": [
+       40.4,
+       38.2,
+       41.6,
+       40.1,
+       44.6,
+       46.6,
+       43.2
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 11",
+      "proprietaire": "Propriétaire 11",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#2b6cff",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 6,
+      "courses": 58
+     },
+     {
+      "num": 12,
+      "nom": "Cheval exemple 12",
+      "jockey": "Jockey L",
+      "cote": 53.8,
+      "proba": 0.024,
+      "top3": 0.062,
+      "top5": 0.101,
+      "forme": [
+       "D",
+       "0",
+       "2",
+       "3",
+       "5"
+      ],
+      "evol": [
+       57.9,
+       47.9,
+       58.3,
+       51.2,
+       59.9,
+       47.1,
+       53.8
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 12",
+      "proprietaire": "Propriétaire 12",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#d33",
+       "#f0c030"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 6,
+      "victoires": 4,
+      "courses": 35
+     },
+     {
+      "num": 13,
+      "nom": "Cheval exemple 13",
+      "jockey": "Jockey M",
+      "cote": 11.5,
+      "proba": 0.112,
+      "top3": 0.291,
+      "top5": 0.47,
+      "forme": [
+       "0",
+       "4",
+       "1",
+       "5",
+       "3"
+      ],
+      "evol": [
+       13.6,
+       13.5,
+       12.2,
+       12.8,
+       13.3,
+       11.7,
+       11.5
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 13",
+      "proprietaire": "Propriétaire 13",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2b6cff",
+       "#2aa86a"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 7,
+      "courses": 9
+     },
+     {
+      "num": 14,
+      "nom": "Cheval exemple 14",
+      "jockey": "Jockey N",
+      "cote": 8.8,
+      "proba": 0.097,
+      "top3": 0.252,
+      "top5": 0.407,
+      "forme": [
+       "3",
+       "2",
+       "0",
+       "4",
+       "D"
+      ],
+      "evol": [
+       8.8,
+       9.6,
+       10.0,
+       7.8,
+       9.2,
+       9.8,
+       8.8
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 14",
+      "proprietaire": "Propriétaire 14",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#8a4fd0",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 0,
+      "courses": 13
+     },
+     {
+      "num": 15,
+      "nom": "Cheval exemple 15",
+      "jockey": "Jockey O",
+      "cote": 16.0,
+      "proba": 0.097,
+      "top3": 0.252,
+      "top5": 0.407,
+      "forme": [
+       "D",
+       "1",
+       "2",
+       "4",
+       "3"
+      ],
+      "evol": [
+       18.9,
+       15.1,
+       15.7,
+       13.9,
+       18.4,
+       18.1,
+       16.0
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 15",
+      "proprietaire": "Propriétaire 15",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2b6cff",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 4,
+      "courses": 26
+     },
+     {
+      "num": 16,
+      "nom": "Cheval exemple 16",
+      "jockey": "Jockey P",
+      "cote": 10.9,
+      "proba": 0.092,
+      "top3": 0.239,
+      "top5": 0.386,
+      "forme": [
+       "5",
+       "4",
+       "D",
+       "0",
+       "2"
+      ],
+      "evol": [
+       11.5,
+       12.1,
+       9.3,
+       13.0,
+       11.0,
+       9.3,
+       10.9
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 16",
+      "proprietaire": "Propriétaire 16",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 5",
+      "casaque": [
+       "#f0c030",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 5,
+      "courses": 45
+     }
+    ],
+    "ordre": [
+     13,
+     3,
+     14,
+     15,
+     16,
+     6,
+     8,
+     9,
+     10,
+     2,
+     4,
+     1,
+     11,
+     12,
+     5,
+     7
+    ],
+    "tickets": [
+     {
+      "famille": "Quinté+",
+      "niveau": "Équilibré",
+      "jeu": "Quinté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       13,
+       3,
+       14,
+       15,
+       16,
+       6
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 6,
+      "cout": 12,
+      "chance": 0.14,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Ambitieux",
+      "jeu": "Quinté+",
+      "formule": "Combiné 8 chevaux",
+      "nums": [
+       13,
+       3,
+       14,
+       15,
+       16,
+       6,
+       8,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 56,
+      "cout": 112,
+      "chance": 0.33,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Risqué",
+      "jeu": "Quinté+",
+      "formule": "Champ réduit",
+      "nums": [],
+      "base": [
+       13,
+       3
+      ],
+      "assoc": [
+       14,
+       15,
+       16,
+       9,
+       10
+      ],
+      "mise_unit": 2,
+      "combis": 0,
+      "cout": 0,
+      "chance": 0.06,
+      "risque": "Élevé"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Prudent",
+      "jeu": "Quarté+",
+      "formule": "Unitaire 4 chevaux",
+      "nums": [
+       13,
+       3,
+       14,
+       15
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 1,
+      "cout": 1.5,
+      "chance": 0.09,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Risqué",
+      "jeu": "Quarté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       13,
+       3,
+       14,
+       15,
+       16,
+       6
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 15,
+      "cout": 22.5,
+      "chance": 0.22,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Meilleur jeu",
+      "jeu": "Couplé placé",
+      "formule": "Unitaire",
+      "nums": [
+       13,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.46,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Équilibré",
+      "jeu": "Couplé gagnant",
+      "formule": "Unitaire",
+      "nums": [
+       13,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.12,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Prudent",
+      "jeu": "Trio",
+      "formule": "Unitaire",
+      "nums": [
+       13,
+       3,
+       14
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.22,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Équilibré",
+      "jeu": "Trio",
+      "formule": "Combiné 5 chevaux",
+      "nums": [
+       13,
+       3,
+       14,
+       15,
+       16
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 10,
+      "cout": 10,
+      "chance": 0.38,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "2 sur 4",
+      "niveau": "Prudent",
+      "jeu": "2 sur 4",
+      "formule": "Unitaire",
+      "nums": [
+       13,
+       3
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.41,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Équilibré",
+      "jeu": "Multi",
+      "formule": "Multi en 4",
+      "nums": [
+       13,
+       3,
+       14,
+       15
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.17,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Ambitieux",
+      "jeu": "Multi",
+      "formule": "Multi en 5",
+      "nums": [
+       13,
+       3,
+       14,
+       15,
+       16
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 5,
+      "cout": 15,
+      "chance": 0.35,
+      "risque": "Moyen-élevé"
+     }
+    ],
+    "terrain": "Souple",
+    "penetrometre": 3.9,
+    "lat": 48.8567,
+    "lon": 2.2347,
+    "meteo": {
+     "temp": 12,
+     "vent": 10,
+     "pluie_mm": 0,
+     "ciel": "Nuageux"
+    }
+   },
+   {
+    "id": "Q4",
+    "label": "R3·C7 · Quinté+",
+    "hippo": "Hippodrome exemple G",
+    "heure": "17:05",
+    "discipline": "Obstacle",
+    "nb_partants": 16,
+    "partants": [
+     {
+      "num": 1,
+      "nom": "Cheval exemple 1",
+      "jockey": "Jockey A",
+      "cote": 10.7,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "5",
+       "0",
+       "4",
+       "D",
+       "1"
+      ],
+      "evol": [
+       9.1,
+       11.8,
+       10.2,
+       10.5,
+       12.6,
+       12.2,
+       10.7
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 1",
+      "proprietaire": "Propriétaire 1",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#d33",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 9,
+      "victoires": 5,
+      "courses": 18
+     },
+     {
+      "num": 2,
+      "nom": "Cheval exemple 2",
+      "jockey": "Jockey B",
+      "cote": 8.1,
+      "proba": 0.089,
+      "top3": 0.231,
+      "top5": 0.374,
+      "forme": [
+       "3",
+       "0",
+       "2",
+       "4",
+       "D"
+      ],
+      "evol": [
+       7.2,
+       8.9,
+       8.4,
+       7.9,
+       8.7,
+       8.7,
+       8.1
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 2",
+      "proprietaire": "Propriétaire 2",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 1",
+      "casaque": [
+       "#2b6cff",
+       "#8a4fd0"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 4,
+      "courses": 31
+     },
+     {
+      "num": 3,
+      "nom": "Cheval exemple 3",
+      "jockey": "Jockey C",
+      "cote": 71.0,
+      "proba": 0.021,
+      "top3": 0.055,
+      "top5": 0.088,
+      "forme": [
+       "D",
+       "3",
+       "1",
+       "4",
+       "0"
+      ],
+      "evol": [
+       79.9,
+       64.5,
+       80.9,
+       75.8,
+       71.5,
+       63.5,
+       71.0
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 3",
+      "proprietaire": "Propriétaire 3",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#8a4fd0",
+       "#fff"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 5,
+      "victoires": 2,
+      "courses": 49
+     },
+     {
+      "num": 4,
+      "nom": "Cheval exemple 4",
+      "jockey": "Jockey D",
+      "cote": 24.7,
+      "proba": 0.055,
+      "top3": 0.143,
+      "top5": 0.231,
+      "forme": [
+       "5",
+       "4",
+       "1",
+       "0",
+       "3"
+      ],
+      "evol": [
+       24.2,
+       26.2,
+       23.7,
+       24.6,
+       22.3,
+       27.6,
+       24.7
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 4",
+      "proprietaire": "Propriétaire 4",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#2aa86a",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 6,
+      "courses": 56
+     },
+     {
+      "num": 5,
+      "nom": "Cheval exemple 5",
+      "jockey": "Jockey E",
+      "cote": 10.1,
+      "proba": 0.089,
+      "top3": 0.231,
+      "top5": 0.374,
+      "forme": [
+       "2",
+       "1",
+       "3",
+       "4",
+       "5"
+      ],
+      "evol": [
+       11.4,
+       11.1,
+       11.1,
+       10.4,
+       10.4,
+       9.6,
+       10.1
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 5",
+      "proprietaire": "Propriétaire 5",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 5",
+      "casaque": [
+       "#2aa86a",
+       "#8a4fd0"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 3,
+      "courses": 42
+     },
+     {
+      "num": 6,
+      "nom": "Cheval exemple 6",
+      "jockey": "Jockey F",
+      "cote": 45.1,
+      "proba": 0.026,
+      "top3": 0.068,
+      "top5": 0.109,
+      "forme": [
+       "3",
+       "0",
+       "D",
+       "4",
+       "1"
+      ],
+      "evol": [
+       38.6,
+       40.4,
+       40.6,
+       46.1,
+       41.5,
+       38.8,
+       45.1
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 6",
+      "proprietaire": "Propriétaire 6",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#d33",
+       "#2aa86a"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 7,
+      "victoires": 3,
+      "courses": 8
+     },
+     {
+      "num": 7,
+      "nom": "Cheval exemple 7",
+      "jockey": "Jockey G",
+      "cote": 21.2,
+      "proba": 0.068,
+      "top3": 0.177,
+      "top5": 0.286,
+      "forme": [
+       "4",
+       "2",
+       "D",
+       "1",
+       "3"
+      ],
+      "evol": [
+       19.7,
+       24.2,
+       23.0,
+       24.6,
+       24.8,
+       21.9,
+       21.2
+      ],
+      "pere": "Père exemple B",
+      "mere": "Mère exemple 7",
+      "proprietaire": "Propriétaire 7",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#2aa86a",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Australiennes",
+      "age": 9,
+      "victoires": 2,
+      "courses": 60
+     },
+     {
+      "num": 8,
+      "nom": "Cheval exemple 8",
+      "jockey": "Jockey H",
+      "cote": 13.5,
+      "proba": 0.089,
+      "top3": 0.231,
+      "top5": 0.374,
+      "forme": [
+       "4",
+       "5",
+       "0",
+       "3",
+       "D"
+      ],
+      "evol": [
+       11.9,
+       13.5,
+       14.7,
+       16.1,
+       13.0,
+       14.3,
+       13.5
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 8",
+      "proprietaire": "Propriétaire 8",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 4",
+      "casaque": [
+       "#2aa86a",
+       "#fff"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 9,
+      "victoires": 8,
+      "courses": 55
+     },
+     {
+      "num": 9,
+      "nom": "Cheval exemple 9",
+      "jockey": "Jockey I",
+      "cote": 13.5,
+      "proba": 0.089,
+      "top3": 0.231,
+      "top5": 0.374,
+      "forme": [
+       "1",
+       "0",
+       "D",
+       "5",
+       "2"
+      ],
+      "evol": [
+       13.2,
+       12.8,
+       15.8,
+       13.7,
+       15.8,
+       14.7,
+       13.5
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 9",
+      "proprietaire": "Propriétaire 9",
+      "ecurie": "Écurie exemple 2",
+      "entraineur": "Entraîneur 7",
+      "casaque": [
+       "#2b6cff",
+       "#f0c030"
+      ],
+      "deferre": "Antérieurs",
+      "oeilleres": "Non",
+      "age": 4,
+      "victoires": 2,
+      "courses": 51
+     },
+     {
+      "num": 10,
+      "nom": "Cheval exemple 10",
+      "jockey": "Jockey J",
+      "cote": 16.6,
+      "proba": 0.064,
+      "top3": 0.166,
+      "top5": 0.269,
+      "forme": [
+       "3",
+       "1",
+       "4",
+       "D",
+       "0"
+      ],
+      "evol": [
+       14.8,
+       19.3,
+       15.3,
+       19.7,
+       14.3,
+       14.9,
+       16.6
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 10",
+      "proprietaire": "Propriétaire 10",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#8a4fd0",
+       "#fff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 9,
+      "victoires": 5,
+      "courses": 44
+     },
+     {
+      "num": 11,
+      "nom": "Cheval exemple 11",
+      "jockey": "Jockey K",
+      "cote": 21.6,
+      "proba": 0.055,
+      "top3": 0.143,
+      "top5": 0.231,
+      "forme": [
+       "3",
+       "2",
+       "D",
+       "1",
+       "5"
+      ],
+      "evol": [
+       18.9,
+       20.3,
+       22.3,
+       23.2,
+       23.5,
+       19.8,
+       21.6
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 11",
+      "proprietaire": "Propriétaire 11",
+      "ecurie": "Écurie exemple 4",
+      "entraineur": "Entraîneur 5",
+      "casaque": [
+       "#2b6cff",
+       "#8a4fd0"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 8,
+      "victoires": 8,
+      "courses": 18
+     },
+     {
+      "num": 12,
+      "nom": "Cheval exemple 12",
+      "jockey": "Jockey L",
+      "cote": 14.8,
+      "proba": 0.089,
+      "top3": 0.231,
+      "top5": 0.374,
+      "forme": [
+       "3",
+       "1",
+       "0",
+       "2",
+       "4"
+      ],
+      "evol": [
+       16.5,
+       17.1,
+       16.4,
+       16.6,
+       14.1,
+       14.6,
+       14.8
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 12",
+      "proprietaire": "Propriétaire 12",
+      "ecurie": "Écurie exemple 1",
+      "entraineur": "Entraîneur 6",
+      "casaque": [
+       "#f0c030",
+       "#2b6cff"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 5,
+      "victoires": 3,
+      "courses": 10
+     },
+     {
+      "num": 13,
+      "nom": "Cheval exemple 13",
+      "jockey": "Jockey M",
+      "cote": 112.7,
+      "proba": 0.009,
+      "top3": 0.023,
+      "top5": 0.038,
+      "forme": [
+       "1",
+       "D",
+       "3",
+       "0",
+       "4"
+      ],
+      "evol": [
+       108.6,
+       131.2,
+       117.5,
+       115.0,
+       124.2,
+       133.7,
+       112.7
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 13",
+      "proprietaire": "Propriétaire 13",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 2",
+      "casaque": [
+       "#2aa86a",
+       "#d33"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Australiennes",
+      "age": 3,
+      "victoires": 7,
+      "courses": 59
+     },
+     {
+      "num": 14,
+      "nom": "Cheval exemple 14",
+      "jockey": "Jockey N",
+      "cote": 22.8,
+      "proba": 0.06,
+      "top3": 0.156,
+      "top5": 0.252,
+      "forme": [
+       "1",
+       "0",
+       "4",
+       "3",
+       "D"
+      ],
+      "evol": [
+       24.0,
+       26.2,
+       24.4,
+       20.8,
+       19.7,
+       20.6,
+       22.8
+      ],
+      "pere": "Père exemple D",
+      "mere": "Mère exemple 14",
+      "proprietaire": "Propriétaire 14",
+      "ecurie": "Écurie exemple 5",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#2aa86a",
+       "#d33"
+      ],
+      "deferre": "Non",
+      "oeilleres": "Non",
+      "age": 6,
+      "victoires": 2,
+      "courses": 51
+     },
+     {
+      "num": 15,
+      "nom": "Cheval exemple 15",
+      "jockey": "Jockey O",
+      "cote": 15.9,
+      "proba": 0.085,
+      "top3": 0.221,
+      "top5": 0.357,
+      "forme": [
+       "D",
+       "0",
+       "2",
+       "5",
+       "4"
+      ],
+      "evol": [
+       19.1,
+       18.3,
+       16.2,
+       17.3,
+       18.8,
+       17.4,
+       15.9
+      ],
+      "pere": "Père exemple C",
+      "mere": "Mère exemple 15",
+      "proprietaire": "Propriétaire 15",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 3",
+      "casaque": [
+       "#2aa86a",
+       "#f0c030"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 8,
+      "victoires": 0,
+      "courses": 51
+     },
+     {
+      "num": 16,
+      "nom": "Cheval exemple 16",
+      "jockey": "Jockey P",
+      "cote": 20.2,
+      "proba": 0.043,
+      "top3": 0.112,
+      "top5": 0.181,
+      "forme": [
+       "5",
+       "2",
+       "D",
+       "1",
+       "0"
+      ],
+      "evol": [
+       23.2,
+       23.8,
+       18.0,
+       19.3,
+       17.5,
+       17.5,
+       20.2
+      ],
+      "pere": "Père exemple A",
+      "mere": "Mère exemple 16",
+      "proprietaire": "Propriétaire 16",
+      "ecurie": "Écurie exemple 3",
+      "entraineur": "Entraîneur 8",
+      "casaque": [
+       "#2aa86a",
+       "#f0c030"
+      ],
+      "deferre": "4 pieds",
+      "oeilleres": "Non",
+      "age": 3,
+      "victoires": 1,
+      "courses": 51
+     }
+    ],
+    "ordre": [
+     2,
+     5,
+     8,
+     9,
+     12,
+     15,
+     1,
+     7,
+     10,
+     14,
+     4,
+     11,
+     16,
+     6,
+     3,
+     13
+    ],
+    "tickets": [
+     {
+      "famille": "Quinté+",
+      "niveau": "Équilibré",
+      "jeu": "Quinté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       2,
+       5,
+       8,
+       9,
+       12,
+       15
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 6,
+      "cout": 12,
+      "chance": 0.14,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Ambitieux",
+      "jeu": "Quinté+",
+      "formule": "Combiné 8 chevaux",
+      "nums": [
+       2,
+       5,
+       8,
+       9,
+       12,
+       15,
+       1,
+       7
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 2,
+      "combis": 56,
+      "cout": 112,
+      "chance": 0.33,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Quinté+",
+      "niveau": "Risqué",
+      "jeu": "Quinté+",
+      "formule": "Champ réduit",
+      "nums": [],
+      "base": [
+       2,
+       5
+      ],
+      "assoc": [
+       8,
+       9,
+       12,
+       7,
+       10
+      ],
+      "mise_unit": 2,
+      "combis": 0,
+      "cout": 0,
+      "chance": 0.06,
+      "risque": "Élevé"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Prudent",
+      "jeu": "Quarté+",
+      "formule": "Unitaire 4 chevaux",
+      "nums": [
+       2,
+       5,
+       8,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 1,
+      "cout": 1.5,
+      "chance": 0.09,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Quarté+",
+      "niveau": "Risqué",
+      "jeu": "Quarté+",
+      "formule": "Combiné 6 chevaux",
+      "nums": [
+       2,
+       5,
+       8,
+       9,
+       12,
+       15
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1.5,
+      "combis": 15,
+      "cout": 22.5,
+      "chance": 0.22,
+      "risque": "Moyen-élevé"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Meilleur jeu",
+      "jeu": "Couplé placé",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       5
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.46,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Couplé",
+      "niveau": "Équilibré",
+      "jeu": "Couplé gagnant",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       5
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.12,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Prudent",
+      "jeu": "Trio",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       5,
+       8
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 1,
+      "cout": 1,
+      "chance": 0.22,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Trio",
+      "niveau": "Équilibré",
+      "jeu": "Trio",
+      "formule": "Combiné 5 chevaux",
+      "nums": [
+       2,
+       5,
+       8,
+       9,
+       12
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 1,
+      "combis": 10,
+      "cout": 10,
+      "chance": 0.38,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "2 sur 4",
+      "niveau": "Prudent",
+      "jeu": "2 sur 4",
+      "formule": "Unitaire",
+      "nums": [
+       2,
+       5
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.41,
+      "risque": "Faible"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Équilibré",
+      "jeu": "Multi",
+      "formule": "Multi en 4",
+      "nums": [
+       2,
+       5,
+       8,
+       9
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 1,
+      "cout": 3,
+      "chance": 0.17,
+      "risque": "Moyen"
+     },
+     {
+      "famille": "Multi",
+      "niveau": "Ambitieux",
+      "jeu": "Multi",
+      "formule": "Multi en 5",
+      "nums": [
+       2,
+       5,
+       8,
+       9,
+       12
+      ],
+      "base": [],
+      "assoc": [],
+      "mise_unit": 3,
+      "combis": 5,
+      "cout": 15,
+      "chance": 0.35,
+      "risque": "Moyen-élevé"
+     }
+    ],
+    "terrain": "Bon",
+    "penetrometre": 3.7,
+    "lat": 48.8567,
+    "lon": 2.2347,
+    "meteo": {
+     "temp": 15,
+     "vent": 9,
+     "pluie_mm": 0,
+     "ciel": "Nuageux"
+    }
+   }
+  ]
+ },
+ "tarifs": [
+  [
+   "Simple gagnant / placé",
+   1,
+   "1 cheval"
+  ],
+  [
+   "Couplé",
+   1,
+   "2 chevaux"
+  ],
+  [
+   "Trio",
+   1,
+   "3 chevaux"
+  ],
+  [
+   "2 sur 4",
+   3,
+   "2 chevaux sur 4"
+  ],
+  [
+   "Multi",
+   3,
+   "4 à 7 chevaux : 1, 5, 15 ou 35 combinaisons"
+  ],
+  [
+   "Quarté+",
+   1.5,
+   "4 chevaux"
+  ],
+  [
+   "Quinté+",
+   2,
+   "5 chevaux (unitaire) ; 6 à 8 chevaux : 6, 21 ou 56 combinaisons"
+  ]
+ ]
+}
