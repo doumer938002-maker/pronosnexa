@@ -1,8 +1,15 @@
 /* PronoNexa : affichage des pronostics NEXA (données lues dans data/pronos.json) */
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pc=(x,d=0)=>x==null?"–":(x*100).toFixed(d).replace(".",",")+" %";
-async function charger(){ try{ const r=await fetch("data/pronos.json",{cache:"no-store"}); if(!r.ok) throw new Error(r.status); return await r.json(); }
-  catch(e){ if(typeof journalErreur==="function") journalErreur("data",e); return window.PRONOS_FALLBACK||null; } }
+function fusionLive(D,L){ if(!D||!L||!L.courses) return D; let n=0;
+  (D.courses||[]).forEach(c=>{ const l=L.courses[c.id]; if(!l) return; c.partants.forEach(p=>{ const q=l.partants&&l.partants[String(p.num)]; if(!q) return; if(q.cote) p.cote=q.cote; if(q.np) p.np=true; });
+    if(l.arrivee&&l.arrivee.length){ c.arrivee=l.arrivee; n++; } });
+  (D.tickets||[]).forEach(t=>{ const l=L.courses[t.course&&(D.courses.find(c=>c.label===t.course&&c.hippo===t.hippo)||{}).id]; if(l&&l.arrivee&&l.arrivee.length){ t.arrivee=l.arrivee; t.statut="terminee"; } });
+  D.live_maj=L.maj; return D; }
+async function charger(){ let D=null; try{ const r=await fetch("data/pronos.json",{cache:"no-store"}); if(!r.ok) throw new Error(r.status); D=await r.json(); }
+  catch(e){ if(typeof journalErreur==="function") journalErreur("data",e); D=window.PRONOS_FALLBACK||null; }
+  try{ const r=await fetch("data/live.json",{cache:"no-store"}); if(r.ok) D=fusionLive(D,await r.json()); }catch(e){}
+  return D; }
 function spark(v,w=84,h=26){ if(!v||v.length<2) return ""; const mn=Math.min(...v),mx=Math.max(...v),r=mx-mn||1;
   const pts=v.map((y,i)=>`${(i/(v.length-1)*w).toFixed(1)},${(h-3-(y-mn)/r*(h-6)).toFixed(1)}`).join(" ");
   const down=v[v.length-1]<v[0]; return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline fill="none" stroke="${down?'#9dff3c':'#ff8a7a'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="${pts}"/></svg>`; }
